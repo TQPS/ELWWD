@@ -1,0 +1,111 @@
+[-GWWD O.E.S.-]
+[-Object Editing System-]
+
+[-I. OBJECT PRICING-]
+
++1000 for every stat. point raised (ex. the weapon gives +1 strength) 
++100 for every 10pts. of Max Damage. 
++500 for the XDMG ability.
++1000 for the POISON or HEAL abilities.
++2000 for the PARALYSIS and AGING abilities.
++3000 for the LEVEL_DRAIN and CRITICAL abilities.
++1000 for every 25% added to chance of special.
++100 for every 10 uses of an item. (unlimited would be +99,900)
++100 for every added range space.
++100 for every 5pts. of armour added.
+
+
+[-II. OBJECT WEIGHT-]
+
+-note: A player may hold 10lbs. for every 1pt. of strength, after exceeding   
+       this limit they suffer a -1 to hit penalty for every 10lbs. over their
+       maximum weight allowance.
+
+Objects are grouped and weighted as follows:
+
+-FEATHER WEIGHT, less than a lb.-
+ rings,arrows,potions,etc.
+
+-LIGHT, 1 to 5lbs.-
+ wands,daggers,boots,small weapons (ie. daggers),
+ light armour (ie. leather), small helmets,
+ and small shields.
+
+-MEDIUM, 6 to 15lbs.-
+ medium shields,medium armour(ie. chain mail),
+ medium helmets,most one-handed weapons (ie staves,swords,bows,etc...).
+
+-HEAVY, 16lbs+.-
+ large shields,heavy armour(ie. plate),large helmets,2-handed weapons.
+
+-note: magical armour,etc. should be light no matter the normal weight class.
+
+[-III. OBJECT CLASSES-]
+
+Objects may be put in the classes A-E. A listing of class usage and 
+what should appear in each class is presented below.
+
+[-A-]
+Classes: ALL
+Objects: potions,scrolls,light armour,weapons, and shields.
+
+[-B-]
+Classes: Warrior,Hunter,Avatar,Dark Lord
+Objects: med-heavy armour,med-heavy shields,med-heavy weapons.
+
+[-C-]
+Classes: Enchanter,Seer,Hunter,Dark Lord
+Objects: staves,wands,amulets,rings, of a combat nature.
+
+[-D-]
+Classes: Acolyte,Avatar,Dark Lord
+Objects: staves,wands,amulets,rings, of a protection/healing nature.
+
+[-E-]
+Classes: Kensai
+Objects: Ancient weapons and armour that only the Kensai may use.
+
+[-IV. OBJECT DAMAGE/ARMOUR VALUES-]
+
+The following list is presented with a generic object name and two values,
+the first of these values is the low value (ie. a rusty dagger) the second 
+value is a high value (ie. a custom crafted dagger).These values are used to
+give a range for many types of weapons and armour.
+
+[-WEAPONS-]
+Daggers: 2/6
+Hammers: 3/10
+Short Swords: 10/40
+Long Swords: 20/60  
+Axes: 25/50
+2-Handed Swords: 45/80
+2-Handed Axes: 50/100
+Maces: 5/20
+Whips: 3/15
+Tridents: 15/45
+Staves: 5/20
+Slings: 3/6      [1/3 range]
+Short Bows: 6/15 [3/6 range]
+Long Bows: 10/25 [7/10 range]
+
+[-ARMOUR-]
+Loin Cloth: 0/0
+Robes: 5/20
+Leather: 21/40
+Chain: 41/75
+Scale: 76/100
+Plate: 100/145
+Light Shield: 10/20
+Medium Shield: 21/35
+Heavy Shield: 36/50
+Light Helmet: 5/10
+Medium Helmet: 11/20
+Heavy Helmet: 21/30
+Gauntlets: 10/25
+
+
+
+
+
+
+

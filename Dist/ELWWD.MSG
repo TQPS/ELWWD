@@ -1,0 +1,2482 @@
+
+LANGUAGE {English/ANSI},{English/RIP}
+
+LEVEL3 {Elwynor Technologies: Worlds of Darkness}
+
+People with this key will be able to edit
+all the databases.  Make sure you give this
+key to trusted users.  We would also suggest
+that you give them the file called WODEDIT.DOC
+It contains all the information on how to
+balance the creation of everything.
+===================================
+NOTE* The maps cannot be edited.
+===================================
+
+WODEDIT {MASTER} S 20 Key required to edit in World of Darkness
+
+LEVEL4 {Elwynor Technologies: Worlds of Darkness}
+
+If you want to charge people to resurect their
+character when they die they will be charged
+this amount per level.  0 will disable this
+function.
+
+Example :  level 4 player, this value is 100
+the player will be charged 4*100.  The max
+you can charge is 2000000 credits/level.
+
+RESCOST {Charge /level to revive : 0} L 0 2000000
+
+If you want to start the users off with a
+compass set this option to YES.  If you want
+them to find the store and buy a compass
+set this option to NO.
+
+SCOMP {Start users with Compass : YES} B
+
+If you want to start the users off with a
+locator set this option to YES.  If you want
+them to find the store and buy a locator
+set this option to NO.
+
+SLOC {Start users with Locator : YES} B
+
+
+LEVEL6 {Elwynor Technologies: Worlds of Darkness}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EYESPY {[0m[2J[22;1H[1;36mEyeSpy: [0m[[1;33mE[0m][1;36mverybody or [0m[[1;33mG[0m][1;36mame Players [37m-=> },{
+!|1K|10000((*Show Who?::G@Game Players,E@Everybody on System))|#|#|#
+} T 
+
+
+EYESPN {[0m[22;1H[1;36mEyeSpy: [0m[[1;33mM[0m][1;36more [0m[[1;33mX[0m][1;36mit [37m-=> } T 
+
+
+EYESPX {[0m[22;1H[1;36mEyeSpy: [0m[[1;33mX[0m][1;36mit [37m-=> } T 
+
+
+MISICNS {[2J
+We have noticed that you don't have all the required icons to play the 
+game.  We will now check your ICON dir and send you the updated icons.
+This may take a couple of minutes.
+},{
+!|1K|w0000270O12|#|#|#
+[0m[2JWe have noticed that you don't have all the required icons to play the
+game.  We will now check your ICON dir and send you the updated icons.
+This may take a couple of minutes.
+} T 
+
+
+NOR20 {
+Your Sysop does not have the version of Worlds of Darkness that
+supports RIPTERM 2.0.  We have included some demo screens of what you
+can expect under version 2.0.  The game will default to ANSI for the
+time being.  If you want to play in RIP please use V1.54 of RIPTERM.
+
+Press ENTER to continue.
+>},{
+!|1K|*|w0000270O12|#|#|#
+[0mYour Sysop does not have the version of Worlds of Darkness that
+supports RIPTERM 2.0.  We have included some demo screens of what you
+can expect under version 2.0.  The game will default to ANSI for the
+time being.  If you want to play in RIP please use V1.54 of RIPTERM.
+
+Press ENTER to continue.
+>} T 
+
+
+RIPCLR { },{
+!|1K|*|1b010102020002000000WODCLR|w0000270O12|#|#|#
+} T 
+
+
+FLERR {[0m[2J
+[1;32mFile %s not found.  Please tell the sysop.
+
+Thank you.
+
+[0m[Press [1;33mENTER[0m]} T 
+
+
+NEWGAME {[0m[2J
+[1;32mThe game has just started, the list is empty....
+
+[0m[Press [1;33mENTER[0m]},{
+!|w0000270O12|#|#|#
+[0m[2J
+[1;32mThe game has just started, the list is empty....
+
+[0m[Press [1;33mENTER[0m]} T 
+
+
+PLYRLST {[0m[2J[1;44m Player Name                   [43m Lvl [45m Class                [0;30;46m Age [42m Experience    },{
+!|w0000270O12|#|#|#
+[0m[2J[1;44m Player Name                   [43m Lvl [45m Class                [0;30;46m Age [42m Experience    } T 
+
+
+PLYRLST1 {[0m
+[1;33m%-32.32s[36m%-5.5d%-22.22s%-5.5d%s } T 
+
+
+PLYREND {[0m
+
+[1;35mE[0m[[1;33mX[0m][1;35mit listing, anything else continues... } T 
+
+
+BANK {[0m[2J [1;35m⁄¬[0;35mƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ[1mƒ¬ø
+ √[37mŸ            [0;32m$[1m·[37man[32mk[0;32m$              [1;37m¿[35m¥
+ [0;35m≥                                  ≥
+ ≥    [1;33mË                        Ë    [0;35m≥
+ ≥   [1;33mË[37mË[33mË                     Ë[37mË[33mË   [0;35m≥
+ ≥  [1;33mËË[37mË[33mËË        ¿[34;44mŒ[33;40m˚         ËË[37mË[33mËË  [0;35m≥
+ ≥  [1;30;47m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹[0m  [35m≥
+ ≥  [1;30;47m›[37;40m€[30;47mﬁ⁄ƒƒ[37mƒƒø [30m⁄ƒƒƒƒ[37mƒƒƒø  [30m⁄ƒƒ[37mƒƒø[30m›[37;40m€[30;47mﬁ[0m  [35m≥
+ ≥  [1;30;47m›[37;40m€[30;47mﬁ≥    [37m≥ [30m≥ [37m⁄¬¡ƒø ≥  [30m≥    [37m≥[30m›[37;40m€[30;47mﬁ[0m  [35m≥
+ ≥  [1;30;47m›[37;40m€[30;47mﬁ≥¯  [37m¯≥ [30m≥¯[32m¿¡ƒ¬ø[37m¯≥  [30m≥¯  [37m¯≥[30m›[37;40m€[30;47mﬁ[0m  [35m≥
+ ≥  [1;30;47m›[37;40m€[30;47mﬁ¿ƒ[37mƒƒƒŸ [30m≥ [0;32;47m¿ƒ¬¡Ÿ [1;37m≥  [30m¿ƒ[37mƒƒƒŸ[30m›[37;40m€[30;47mﬁ[0m  [35m≥
+ [1m√[37mø [0;34m∞±≤€[1;44m∞±≤€≤±∞[0;34m€≤±∞∞±≤€[1;44m∞±≤€≤±∞[0;34m€≤±∞ [1;37m⁄[35m¥
+ ¿¡[0;35mƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ[1m¡Ÿ
+},{
+!|w0000270O12|1I000000010BANK|#|#|#
+[0m[2J [1;35m⁄¬[0;35mƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ[1mƒ¬ø
+ √[37mŸ            [0;32m$[1m·[37man[32mk[0;32m$              [1;37m¿[35m¥
+ [0;35m≥                                  ≥
+ ≥    [1;33mË                        Ë    [0;35m≥
+ ≥   [1;33mË[37mË[33mË                     Ë[37mË[33mË   [0;35m≥
+ ≥  [1;33mËË[37mË[33mËË        ¿[34;44mŒ[33;40m˚         ËË[37mË[33mËË  [0;35m≥
+ ≥  [1;30;47m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹[0m  [35m≥
+ ≥  [1;30;47m›[37;40m€[30;47mﬁ⁄ƒƒ[37mƒƒø [30m⁄ƒƒƒƒ[37mƒƒƒø  [30m⁄ƒƒ[37mƒƒø[30m›[37;40m€[30;47mﬁ[0m  [35m≥
+ ≥  [1;30;47m›[37;40m€[30;47mﬁ≥    [37m≥ [30m≥ [37m⁄¬¡ƒø ≥  [30m≥    [37m≥[30m›[37;40m€[30;47mﬁ[0m  [35m≥
+ ≥  [1;30;47m›[37;40m€[30;47mﬁ≥¯  [37m¯≥ [30m≥¯[32m¿¡ƒ¬ø[37m¯≥  [30m≥¯  [37m¯≥[30m›[37;40m€[30;47mﬁ[0m  [35m≥
+ ≥  [1;30;47m›[37;40m€[30;47mﬁ¿ƒ[37mƒƒƒŸ [30m≥ [0;32;47m¿ƒ¬¡Ÿ [1;37m≥  [30m¿ƒ[37mƒƒƒŸ[30m›[37;40m€[30;47mﬁ[0m  [35m≥
+ [1m√[37mø [0;34m∞±≤€[1;44m∞±≤€≤±∞[0;34m€≤±∞∞±≤€[1;44m∞±≤€≤±∞[0;34m€≤±∞ [1;37m⁄[35m¥
+ ¿¡[0;35mƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ[1m¡Ÿ
+} T 
+
+
+BNKMNU1 {[1;48H[0m[1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+[2;48H[1;41m∫    [40mCommands List[0;41m        [1m∫[0m
+[3;48H[1;41m∫                         ∫[0m
+[4;48H[1m∫ [32m[[33mI[32m][33mnvest                [37m∫
+[5;48H∫ [32m[[33mD[32m][33meposit               [37m∫
+[6;48H∫ [32m[[33mW[32m][33mithdraw              [37m∫
+[7;48H∫ [32m[[33mL[32m][33moans                 [37m∫
+[8;48H∫ [32m[[33mR[32m][33mepay Loan            [37m∫
+[9;48H∫ [32m[[33mX[32m][33mit                   [37m∫
+[10;48H[41m∫ [33m8 & 2 to Move Selection [37m∫[0m
+[11;48H[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+},{
+!|1K
+!|10000((*Welcome to the Bank::I@Invest,D@Deposit,W@Withdraw,L@Get a Loan,R@R\
+epay Loan,X@Leave Bank))
+!|#|#|#
+} T 
+
+
+TERMS {[1;48H[0m[1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+[2;48H[1;41m∫     [32;40m [37mLoan Terms [0;41m        [1m∫[0m
+[3;48H[1;41m∫                         ∫[0m
+[4;48H[1m∫ [32m[[33mA[32m] [33m10 Days @5%%         [37m∫
+[5;48H∫ [32m[[33mB[32m] [33m20 Days @10%%        [37m∫
+[6;48H∫ [32m[[33mC[32m] [33m30 Days @15%%        [37m∫
+[7;48H∫ [32m[[33mN[32m][33mo Deal               [37m∫
+[8;48H[41m∫ [33m8 & 2 to Move Selection [37m∫[0m
+[9;48H[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+},{
+!|1K
+!|10000((*Loan Terms::A@10 Day at 5%%,B@20 Day at 10%%,C@30 Day at 15%%,N@No \
+Thanks))
+!|#|#|#
+} T 
+
+
+SCBWUHM {[0m[1;32mSure. Come back when you have the money.} T 
+
+
+KNWCOST {[0m[1;32mThe Knowledge of Location costs 5000pp Pay us [Y/N] ? } T 
+
+
+UNHETHK {[0m[1;32mYou are not ready for the Knowledge of Location} T 
+
+
+UHKNLG {[0m[1;32mYou already have the Knowledge of Location} T 
+
+
+UNHKNL {[0m[1;32mYou now have the Knowledge of Location} T 
+
+
+SNSCOST {[0m[1;32mThe Sense of Direction costs 1000pp Pay us [Y/N] ? },{
+!|1K|10000((*Sense of Direction Costs 1000pp, Buy it?::Y@Yes,N@No WAY\!))|#|#\
+|#
+} T 
+
+
+UNHETHS {[0m[1;32mYou are not ready to learn the Sense of Direction} T 
+
+
+UNHSENS {[0m[1;32mYou now have the Sense of Direction} T 
+
+
+UHSENS {[0m[1;32mYou already have the Sense of Direction} T 
+
+
+NOINVC {[0m[16;1H[1;32mSorry, we haven't hired a broker yet} T 
+
+
+NOMINV {[0m[16;1H[1;32mYou have no money in your account to invest} T 
+
+
+NOMDEP {[0m[16;1H[1;32mYou have no cash to deposit} T 
+
+
+NOMWIT {[0m[16;1H[1;32mYou have no money in your account} T 
+
+
+NOLOAN {[0m[16;1H[1;32mSorry, you already owe us money!} T 
+
+
+DEPHOW {[0m[16;1H[1;32mHow much to deposit [%s] : } T 
+
+
+NEWBAL {[0m[16;1H[1;32mYour new balance is: %spp Total to repay: %spp} T 
+
+
+URBAL {[0m[16;1H[1;32mCurrent account balance: %spp} T 
+
+
+NORESV {[0m[16;1H[1;32mYou have no money to repay the loan} T 
+
+
+WITHOW {[0m[16;1H[1;32mHow much to withdraw [%s] : } T 
+
+
+PIKTERM {[0m[16;1H[1;32mWe will lend you %spp. If acceptable, choose a term} T 
+
+
+NOPAY {[0m[16;1H[1;32mYou have no loan to repay} T 
+
+
+LREPY {[0m[16;1H[1;32mThe loan is repaid. Thank You} T 
+
+
+NORES {[0m[2J
+[1;32mSorry, you don't have the funds to be able to revive yourself.  We
+would suggest that you just [37mSUICIDE [32myour character and restart the
+game.
+
+[0m[[1mPress ENTER[0m]},{
+!|1C010LHR5A0|10000$stw$|10000$smf$|10000$scb$|1K
+!|1B00000200LC030F000F080700000F07000000|Y00000100|1U0G0VHN550000<><>
+!|1B00000200LC030F00080F0000000F07000000|1U0R13H64E0000<><>
+!|1B00000207QA030B000B010900060D07000000
+!|1U764NAQ510020<>OK<>`m$rtw$$rmf$$pcb$$rcb$|w05052E0I11
+!|1M010S13H34C0000000`m$RTW$$RMF$$PCB$$RCB$|#|#|#
+[0m[2J
+[1;32mSorry, you don't have the funds to be able to revive yourself.  We
+would suggest that you just [37mSUICIDE [32myour character and restart the
+game.
+
+} T 
+
+
+SRESUR {[0m[2J
+[1;36mYou died during your last adventure, do you wish to reenter the
+[33mREALM [36mat your current position?
+
+This will restore your characters Hit Points, and Magic Points.
+
+Do you still want to revive your character?  [[33mY[36m/[33mN[36m] : },{
+!|1C010LHR5A0|10000$stw$|10000$smf$|10000$scb$|1K
+!|1B00000200LC030F000F080700000F07000000|Y00000100|1U0G0VHN550000<><>
+!|1B00000200LC030F00080F0000000F07000000|1U0R13H64E0000<><>
+!|1B00000207QA030B000B010900060D07000000
+!|1UAV4MEF500020<>YES<>y`m$rtw$$rmf$$pcb$$rcb$
+!|1U3R4M7B500020<>NO<>n`m$rtw$$rmf$$pcb$$rcb$|w05052E0I11
+!|1M010S13H34C0000000y`m$RTW$$RMF$$PCB$$RCB$|#|#|#
+[0m[2J
+[1;36mYou died during your last adventure, do you wish to reenter the
+[33mREALM [36mat your current position?
+
+This will restore your characters Hit Points, and Magic Points.
+
+Do you still want to revive your character?  [[33mY[36m/[33mN[36m] : } T 
+
+
+SRESUR1 {[0m[2J
+[1;31mWith resurection comes a price...  That price is [33m%s[31m.
+
+This will restore your characters Hit Points, and Magic Points.
+
+Do you still want to revive your character?  [[33mY[31m/[33mN[31m] : },{
+!|1C010LHR5A0|10000$stw$|10000$smf$|10000$scb$|1K
+!|1B00000200LC030F000F080700000F07000000|Y00000100|1U0G0VHN550000<><>
+!|1B00000200LC030F00080F0000000F07000000|1U0R13H64E0000<><>
+!|1B00000207QA030B000B010900060D07000000
+!|1UAV4MEF500020<>YES<>y`m$rtw$$rmf$$pcb$$rcb$
+!|1U3R4M7B500020<>NO<>n`m$rtw$$rmf$$pcb$$rcb$|w05052E0I11
+!|1M010S13H34C0000000y`m$RTW$$RMF$$PCB$$RCB$|#|#|#
+[0m[2J
+[1;31mWith resurection comes a price...  That price is [33m%s[31m.
+
+This will restore your characters Hit Points, and Magic Points.
+
+Do you still want to revive your character?  [[33mY[31m/[33mN[31m] : } T 
+
+
+YRDEAD {[0m[2J
+[1;35mGeee, seems like you weren't too careful during those last few
+encounters, you should sleep more...  But since you didn't it
+doesn't matter, guess we will have to cart you off to the morgue...
+Either that or leave your body to rot..  I would let it rot, but the
+smell makes me ill....  Oh well off ya go...
+
+[0m[[1;33mPress ENTER[0m]},{
+!|1C010LHR5A0|10000$stw$|10000$smf$|10000$scb$|1K
+!|1B00000200LC030F000F080700000F07000000|Y00000100|1U0G0VHN550000<><>
+!|1B00000200LC030F00080F0000000F07000000|1U0R13H64E0000<><>
+!|1B00000207QA030B000B010900060D07000000
+!|1U764NAQ510020<>OK<>`h$rtw$$rmf$$pcb$$rcb$|w05052E0I11
+!|1M010S13H34C0000000`h$RTW$$RMF$$PCB$$RCB$|#|#|#
+[0m[2J
+[1;35mGeee, seems like you weren't too careful during those last few
+encounters, you should sleep more...  But since you didn't it
+doesn't matter, guess we will have to cart you off to the morgue...
+Either that or leave your body to rot..  I would let it rot, but the
+smell makes me ill....  Oh well off ya go...
+
+} T 
+
+
+ABCHAR {[0m[2J
+[1;31mCharacter Generation Aborted...
+
+[0m[Press [1mENTER[0m] },{
+!|1C0522HR5A0|10000$stw$|10000$smf$|10000$scb$|1K
+!|1B00000200LC030F000F080700000F07000000|Y00000100|1U0G2AHN550000<><>
+!|1M010R2IH34C1000000`m$RTW$$RMF$$PCB$$RCB$|w0010271610|Y00000200
+!|1B00000206JK030C000B010700000D07000000
+!|1U0Q37H43S0000<>Character Generation Aborted\!\!<>|Y00000100
+!|1B00000207QA030B000B010900060D07000000
+!|1U764NAQ510020<>OK<>`m$rtw$$rmf$$pcb$$rcb$|w0000000000|#|#|#
+} T 
+
+
+THISCHAR {[0m
+[1;33mYou want to be a[0m(n) [1;35m%s %s[33m?  [0m([1;33my/N[0m) [1;33m: },{
+!|1K
+!|10000((*You want to be a(n) %s %s?::Y@Yes,N@No))
+!|#|#|#
+} T 
+
+
+UPLVL {[0m[16;1H[1;32mYou are raised a level!} T 
+
+
+WBLLN {[0m[16;1H                                                                     [16;1H} T 
+
+
+YBLLN {[0m[17;1H                                                                     [17;1H} T 
+
+
+EUSRN {[15;1HEnter Username:},{
+!|*|Y00000100|c0F|W00|S0100|B004AHK5U|c0B|Y00000100|@004OEnter Username:|c0F
+!|@0055>|@7J55<|w010D0X0D02|#|#|#
+[15;1HEnter Username:} T 
+
+
+WWWR {[15;1HThe writing on the wall says:
+%s},{
+!|c0E|Y00000100|S0100|B004AHK5U|@004OWriting on the wall reads:|c0F
+!|@0052%s
+!|#|#|#
+} T 
+
+
+EUSRT {[15;1HEnter Notify Text(Max 42 chars)
+> },{
+!|W00|S0100|B004AHK5U|c0E|Y00000100|@004OEnter NOTIFY text:|c0F|@0052>
+!|@484O(78 Chars)|w010D260D02|#|#|#
+[15;1HEnter Notify Text(Max 42 chars)
+> } T 
+
+
+EUSNT {Notify Sent},{
+!|W00|S0100|B004AHS5U|c0A|Y00000100|@004ONotify sent.....|#|#|#
+Notify Sent} T 
+
+
+EUNSNT {Notify Not Sent},{
+!|W00|S0100|B004AHS5U|c0C|Y00000100|@004OUnable to Notify.  User was busy.
+!|@0052Tray again in a couple of minutes.|#|#|#
+Notify Not Sent} T 
+
+
+YAKM {[0;1;32m*Yak Msg*
+[37m%s
+%s},{
+!|c0A|W00|S0100|B004AHK5U|Y00000100|@004O*Yak Message*|c0F
+!|@0052%s
+!|@005G%s
+!|#|#|#
+} T 
+
+
+SYNTX {Command syntax error.
+} T 
+
+
+NCTGV {You don't have that much to give away
+} T 
+
+
+ADMHDW {You sit back and admire your handiwork.},{
+!|c0F|W00|Y00000100|@004OYou stand back to admire your handywork\!|#|#|#
+You sit back and admire your handiwork.} T 
+
+
+EWMSG {[15;1HEnter your wall message (72 chars max)
+},{
+!|1K|10000$Write_what_on_the_wall?_(72_chrs)$|#|#|#
+} T 
+
+
+NLDRO {[16;1HOnly the party leader can send notifies },{
+!|c0C|W00|Y00000100|@005GOnly the party leader can send notifies.|#|#|#
+} T 
+
+
+NOSCRB {[15;1HYour crayon seems to leave no mark.},{
+!|c0C|W00|Y00000100|@005GYour crayon seems to leave no mark.|#|#|#
+} T 
+
+
+WLDRO {[16;1HOnly the party leader can scribble },{
+!|c0C|W00|Y00000100|@005GOnly the party leader can scribble.|#|#|#
+} T 
+
+
+EBLLN {[0m[13;1H                                                                     [13;1H},{
+!|#|#|#
+[0m
+
+
+
+
+
+
+
+                                                                     [69D} T 
+
+
+ABLLN {[0m[15;1H                                                                     [15;1H},{
+!|#|#|#
+[0m
+
+
+
+
+
+
+
+                                                                     [69D} T 
+
+
+NYCLS {[0;1;32mNot something for your class!} T 
+
+
+ENCBGN {[0;1;32mCombat begins!} T 
+
+
+NORANG {[0m[13;1H[1;32mNo range weapon equipped!} T 
+
+
+HELTY {[6;70HHealthy  } T 
+
+
+PIZLIN {[6;70HPoisoned!} T 
+
+
+PIZFEL {[0m[16;1H[1;32mYou feel the poison spreading!},{
+!|W00|Y00000100|S0100|B005GA05U|c0E|@005GYou feel the poison spreading.|#|#|#
+} T 
+
+
+PIZKILT {[0m[16;1H[1;32m%s has died from poison!},{
+!|S0100|B005GHK5U|c0C|W00|Y00000100
+!|@005G%s has died from poison\!
+!|#|#|#
+} T 
+
+
+PIZKIL {[0m[16;1H[1;32mThe poison has killed you!},{
+!|S0100|B005GHK5U|c0C|W00|Y00000100|@005GThe poison has killed you\!|#|#|#
+} T 
+
+
+ARNL1 {[0m[16;1H[1;32m[F]ight for experience or [L]eave           },{
+!|1K|10000((*Arena Options::F@Fight For Experience,L@Leave Arena))|#|#|#
+} T 
+
+
+ARNL2 {[0m[16;1H[1;32mEnter Level [1-15] of opponent: },{
+!|1K|10000((*Fight what Level?::1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,X@Abort))
+!|#|#|#
+} T 
+
+
+ARNL3 {[0m[16;1H[1;32mEnter number [1-10] of opponents: },{
+!|1K|10000((*How Many?::1,2,3,4,5,6,7,8,9,10,X@Abort))|#|#|#
+} T 
+
+
+ARNOPP {[0m[15;1H[1;32mSorry we have no fighters of that level} T 
+
+
+ARNFUL {[0m[15;1H[1;32mSorry, all areans are full                 } T 
+
+
+REQP {[0m[1;32m%s removed} T 
+
+
+CRCI {[0m[1;32mCannot remove cursed items} T 
+
+
+NDCI {[0m[16;1H[1;32mNo dropping cursed items} T 
+
+
+ACIR {[0m[16;1H[1;32mAll cursed items uncursed} T 
+
+
+NACIR {[0m[16;1H[1;32mNot all cursed items uncursed} T 
+
+
+CTRCI {[0m[15;1H[1;32mCost to uncurse all equipped items is %spp
+Have it done [Y/N] ? },{
+!|1K
+!|10000((*Cost to uncurse all items %spp::Y@Yes,N@No I like them cursed.))
+!|#|#|#
+} T 
+
+
+NCITR {[0m[16;1H[1;32mNo cursed items equipped.} T 
+
+
+NODART {[0m[13;1H[1;32mNo darts} T 
+
+
+NOROKS {[0m[13;1H[1;32mNo rocks} T 
+
+
+NOARW {[0m[13;1H[1;32mNo arrows} T 
+
+
+PWAKE {[0m[16;1H[1;32mThe party awakens},{
+!|c0F|W00|S0100|B0052HK5U|Y00000100|@0052The party awakens.|#|#|#
+} T 
+
+
+ROUS2 {[0m[16;1H[1;32m%s's departure wakes the party},{
+!|c0F|W00|S0100|B0052HK5U|Y00000100
+!|@0052%s's departure wakes the party.
+!|#|#|#
+} T 
+
+
+ROUST {[0m[16;1H[1;32m%s rousts the party},{
+!|c0F|W00|S0100|B0052HK5U|Y00000100
+!|@0052%s rousts the party.
+!|#|#|#
+} T 
+
+
+UWAKE {[0m[16;1H[1;32m You awaken feeling better},{
+!|c0F|W00|S0100|B0052HK5U|Y00000100|@0052You awaken feeling much better\!|#|#|#
+} T 
+
+
+UDOZ {[0m[16;1H[1;32m You drift off too sleep},{
+!|c0E|W00|S0100|B0052HK5U|Y00000100|@0052You drift off to sleep\!|#|#|#
+} T 
+
+
+TPID {[0m[16;1H[1;32m The party is snoozing},{
+!|c0F|W00|S0100|B0052HK5U|Y00000100|@0052The party is snoozing\!|#|#|#
+} T 
+
+
+UNNSZ {[0m[16;1H[1;32m Sleep is not an option at this time},{
+!|c0C|W00|S0100|B0052HK5U|Y00000100|@0052Sleep is not an option at this time.|#
+!|#|#
+} T 
+
+
+OTLCS {[0m[16;1H[1;32m Only the leader can start dozing},{
+!|c0C|W00|S0100|B0052HK5U|Y00000100|@0052Only the leader can start dozing.|#|#
+!|#
+} T 
+
+
+SHLDFL {[0m[16;1H[1;32m Your Magic Shield has collapsed!} T 
+
+
+STPLYZD {[0m[16;1H[1;36mYou're still paralyzed![36m!} T 
+
+
+NOPLYZD {[0m[16;1H[1;36mYou're no longer paralyzed![36m!} T 
+
+
+NOVIZN {[0m[16;1H[1;32mYour vision is less acute.} T 
+
+
+DMGED {[0m[16;1H[1;33m%s [36mhas cost you [33m%u [36mhp!} T 
+
+
+UDMGED {[0m[16;1H[1;32mYou nailed [31m%s [32mfor [31m%u [32mdamage!} T 
+
+
+UHNOMP {[0m[1;31mYou have no [37mMAGIC POINTS[31m!} T 
+
+
+NEMP {[0m[1;31mNot enough [37mMAGIC POINTS[31m!} T 
+
+
+DATBU {[0m[16;1H[1;32mThat is you.},{
+!|c0A|W00|Y00000100|@005GThat is you\!|#|#|#
+} T 
+
+
+KILT {[0m[16;1H[1;33m%s [32mhas killed you!} T 
+
+
+UKILT {[0m[16;1H[1;32m%s [36mhas been killed!} T 
+
+
+REVIV {[0m[16;1H[1;36m%s [34mhas revived you!} T 
+
+
+UREVIV {[0m[16;1H[1;33m%s [36mhas been revived!} T 
+
+
+CURED {[0m[16;1H[1m%s [32mhas cured you!} T 
+
+
+UCURED {[0m[16;1H[1m%s [32mis cured!} T 
+
+
+AGED {[0m[16;1H[1;35m%s [31mhas taken your youth!} T 
+
+
+UAGED {[0m[16;1H[1;33m%s [36mis aging before your eyes!} T 
+
+
+YOUTH {[0m[16;1H[1;33m%s [36mhas restored your proper age!} T 
+
+
+UYOUTH {[0m[16;1H[1m%s [35mis younger!} T 
+
+
+UHEELD {[0m[16;1H[1;33mYou have healed [31m%s[33m!} T 
+
+
+HEELD {[0m[16;1H[1;33m%s [31mhas healed you!} T 
+
+
+UDRNLIF {[0m[16;1H[1;32mYou have gained life from [35m%s[32m!} T 
+
+
+DRNLIF {[0m[16;1H[1;33m%s [36mhas drained your life!} T 
+
+
+USHLDD {[0m[16;1H[1;36mYou are protected by a [35mShield of Magic[36m!} T 
+
+
+USHLDP {[0m[16;1H[1;32m%s [36mhas cast a Magic Shield on you! } T 
+
+
+USHLDU {[0m[16;1H[1;36m%s [32mnow has a Magic Shield!} T 
+
+
+SCRYL {[0m[2J                     [36;45mPlayers Currently Online[37;40m },{
+!|w0000270O12|#|#|#
+[0m[2J                     [36;45mPlayers Currently Online[37;40m } T 
+
+
+SCRYLL {[0;30;45m≤±∞ %-30.30s ∞±≤[37;40m L:%d R:%d C:%d} T 
+
+
+SCRYLC {[0m[23;1H[35m∞∞±±≤≤€[1;37;45m[C][0;30;45montinue [1;37m[Q][0;30;45muit[35;40m€≤≤±±∞∞ } T 
+
+
+NODRAIN {[0m[16;1H[1;32m%s [36mwas unaffected!} T 
+
+
+UDRNLVL {[0m[16;1H[1;36m%s [31mhas been drained a level!} T 
+
+
+DRNLVL {[0m[16;1H[1;32m%s [31mhas drained a level from you!} T 
+
+
+UPIZND {[0m[16;1H[1;31m%s [36mhas been poisoned!} T 
+
+
+PIZND {[0m[16;1H[1;36mYou've been poisoned by [33m%s[36m!} T 
+
+
+UPLYZD {[0m[16;1H[1;33m%s [36mhas been paralyzed!} T 
+
+
+PLYZD {[0m[16;1H[1;36mYou've been paralyzed by [32m%s[36m!} T 
+
+
+SPLFL {[0m[16;1H[1;35mSpell failed against [33m%s} T 
+
+
+NOEGRPP {[0m[13;1H[1;32mNo enemy group in range.} T 
+
+
+NOEGRP {[0m[16;1H[1;32mNo enemy group in range.} T 
+
+
+LOSTGT {[13;1HADL:PEnc PTgtLst:%c} T 
+
+
+PIKPTY {[0m[16;1H[1;35mEnter the target's letter[37m: } T 
+
+
+NOBTHR {[0m[16;1H[1;31mNo one around to cast on.} T 
+
+
+DATISP {[0m[16;1H[1;36mThat is [33m%s [36mand party.},{
+!|c0F|W00|S0100|B0052HK5U|Y00000100
+!|@0052That is %s and party\!
+!|#|#|#
+} T 
+
+
+DATIS {[0m[16;1H[1;36mThat is [31m%s[36m.},{
+!|c0F|W00|S0100|B0052HK5U|Y00000100
+!|@0052That is %s.
+!|#|#|#
+} T 
+
+
+DAYBGN {[0m[16;1H[1;36mThat person has left the game.},{
+!|c0C|W00|S0100|B0052HK5U|Y00000100|@0052That person has left the game.|#|#|#
+} T 
+
+
+WHOBE {[0m[16;1H[1;36mEnter the letter for [33mWhoBeDat[37m(tm): },{
+!|c0F|W00|S0100|B0052HK5U|Y00000100|@0055Enter the letter of WhoBeDat(tm):
+!|w0X0D0Z0D12|#|#|#
+} T 
+
+
+NOBDERE {[0m[16;1H[1;36mNo one is around...},{
+!|c0C|W00|Y00000100|@005GNo one is around.|#|#|#
+} T 
+
+
+NOSPELC {[0m[1;33mYou don't know any spells!} T 
+
+
+WZNFSF {[16;1HADL:WzP3 No free slot} T 
+
+
+WZSPLC1 {[16;1HADL:WzLOC failed for %s} T 
+
+
+WZSPLC2 {[16;1HADL:%s PLvl Range Error} T 
+
+
+LRNSPL {[0m[16;1H[1;33m%s [36mhas been learned!} T 
+
+
+NOLRNM {[0m[16;1H[1;36mYou cannot learn anymore spells for this level.} T 
+
+
+NOSPLVL {[0m[1;32mNo spells at that level.} T 
+
+
+NOLERN {[0m[16;1H[1;32mYou cannot learn any spells.} T 
+
+
+SPCAP {[0m[16;1H[1;32mSpell Capacity Reached!} T 
+
+
+PICUSE {[0;1;36mPick an item to use:} T 
+
+
+TRNPAS {[0m[13;1H[1;31mTurn Passed} T 
+
+
+IFIZZL {[0m[13;1H[1;31mThe item does...nothing!} T 
+
+
+IFIZZN {[0m[13;1H[1;31mNothing special happens..} T 
+
+
+PIZISF {[0m[15;1H[1;36mInsufficient funds for a full cure} T 
+
+
+HEALD {[0m[15;1H[1;36mAhhh...Healing...                  } T 
+
+
+CURPIZ {[0m[15;1H[1;36mCleanse your blood [%dpp] (Y/N) ?    },{
+!|1K
+!|10000((*Cleanse your blood [%dpp]::Y@Yes,N@No I want to die\!))
+!|#|#|#
+} T 
+
+
+NONEEDH {[0m[15;1H[1;36mYou need no healing...} T 
+
+
+WSTNGT {[0;1;32mYou are wasting time!} T 
+
+
+NOTHUSE {[0;1;32mNothing to use!} T 
+
+
+NOPIZN {[0m[15;1H[1;36mYour blood is cleansed!} T 
+
+
+ICBONLY {[0m[15;1H[1;36mOnly for combat use!} T 
+
+
+NOHAPP {[0m[15;1H[1;36mNothing happens!} T 
+
+
+NOUSE {[0m[15;1H[1;36mYou cannot use that item. } T 
+
+
+SWISH {[0;1;31mNothing but air. } T 
+
+
+AHIT {[0;1;33mA hit! } T 
+
+
+PEVADE {[0;1;36mPlayer evades blow!} T 
+
+
+MEVADE {[0;1;32mMonster evades blow!} T 
+
+
+BAREH {[0;1;31mBare hands have no effect.} T 
+
+
+NOTHEQU {[0;1;32mYou have nothing to equip. } T 
+
+
+PICEQU {[0;1;32mSelect item to equip. } T 
+
+
+MOVACC {[0;1;36mMove command accepted.} T 
+
+
+NOMVET {[0;1;31mNo command has been entered. } T 
+
+
+INVMOV {[0;1;31mInvalid movement command. } T 
+
+
+SDIREC {[0;1;36mEnter direction to search.} T 
+
+
+ADIREC {[0;1;33mEnter attack direction.} T 
+
+
+WDIREC {[0;1;33mEnter movement direction.} T 
+
+
+NOENTRY {[1;5;37;40mWORLDS OF DARKNESS [0;1;33mis currently disabled due to critical errors....
+} T 
+
+
+FATALM {[1;5;33;40mWORLDS OF DARKNESS [0;1mhas encountered a critical error and is unable to
+continue.  An attempt will be made to save your game and return you
+to the BBS System....   Standy by for 30 seconds.....
+} T 
+
+
+INURP {[0;1;31mThat person is already in your party.
+} T 
+
+
+NOTU {[0;1;31mYou cannot fight yourself or members of your party.
+} T 
+
+
+BADJOB {[0;1;31mInvalid number!
+} T 
+
+
+NHERE {[0;1;31mThat person is not here.
+} T 
+
+
+CGVN {[0;1;31mMoney handed over.
+} T 
+
+
+GVUC {[0;1;31m%s has given you %s pp.
+} T 
+
+
+NOTONL {[0;1;31mThat person is not online.
+} T 
+
+
+NOSTART {[0;1;35mOnly leaders can start a fight.
+} T 
+
+
+WAWAY {[0m[1;32m[s[16;1H%s [31mhas walked away from the party.[u} T 
+
+
+NOENT {[0;1;33mA party may not enter.} T 
+
+
+HJOIN {[0;1;33m%s [32mhas joined your party.
+} T 
+
+
+HLEFT {[0;1;32m%s [36mhas left your party.
+} T 
+
+
+INVSNT {[0;1;33mInvitation sent.
+} T 
+
+
+DISBAND {[0;1;31mYour party has disbanded.
+} T 
+
+
+QPARTY {[0;1;31mYou have left the party.
+} T 
+
+
+NPARTY {[0;1;31mYou are not a member of a party.
+} T 
+
+
+NOVITE {[0;1;31mYou have not been invited to join that party.
+} T 
+
+
+MLEEV {[0;1;33mYou must first quit your current party.
+} T 
+
+
+CHATHELP {[0m
+         [1m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹[0m‹
+         [1m€[0;34;47m                                                         [1;30;40m€
+         [37m€[0;30;47m                Chat Help Commands Menu                  [1;40m€
+         [37m€[0;30;47m                =======================                  [1;40m€
+         [37m€[0;34;47m                                                Example  [1;30;40m€
+         [37m€[0;30;47m  /?  = [34mThis menu.                                       [1;30;40m€
+         [37m€[0;30;47m  /x  = [34mExit the chat area.                              [1;30;40m€
+         [37m€[0;30;47m  /lp = [34mList people in parties.                          [1;30;40m€
+         [37m€[0;30;47m  /l  = [34mList everyone in Chat Area.                      [1;30;40m€
+         [37m€[0;30;47m  /i  = [34mInvite a user to join your party.       [[1;33;40m/i chn[0;34;47m] [1;30;40m€
+         [37m€[0;30;47m  /j  = [34mJoin someones party.  Only if Invited.  [[1;33;40m/j chn[0;34;47m] [1;30;40m€
+         [37m€[0;30;47m  /q  = [34mQuit the party you are in.                       [1;30;40m€
+         [37m€[0;30;47m  /a  = [34mAttack a user in the chat area.         [[1;33;40m/a chn[0;34;47m] [1;30;40m€
+         [37m€[0;30;47m  \text = [34mSend message to only your party.      [[1;33;40m\msg..[0;34;47m] [1;30;40m€
+         [37m€[0;30;47m  /give = [34mGive something to another user.                [1;30;40m€
+         [37m€[0;34;47m    [[1;33;40m/give amount pp to chn[0;34;47m] Give PP/GOLD to channel #   [1;30;40m€
+         [37m€[0;34;47m                                                         [1;30;40m€
+         [0mﬂ[1;30mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+[37m> } T 
+
+
+TAVHELP {[0m
+         [1m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹[0m‹
+         [1m€[0;34;47m                                                         [1;30;40m€
+         [37m€[0;30;47m                Chat Help Commands Menu                  [1;40m€
+         [37m€[0;30;47m                =======================                  [1;40m€
+         [37m€[0;34;47m                                                Example  [1;30;40m€
+         [37m€[0;30;47m  /?  = [34mThis menu.                                       [1;30;40m€
+         [37m€[0;30;47m  /x  = [34mExit the chat area.                              [1;30;40m€
+         [37m€[0;30;47m  /l  = [34mList everyone in Chat Area.                      [1;30;40m€
+         [37m€[0;34;47m                                                         [1;30;40m€
+         [0mﬂ[1;30mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+[37m> } T 
+
+
+INVITE {[0;1;33m%s [36mis inviting you to join. [0m[[1mType [33m/j %d [37mto join[0m]
+} T 
+
+
+ILOUNG {[0m [1mYou are now in chat mode..  Type /? for help.
+},{
+!|e|10000$saveall$|1B00000200LC030F000F080700000F07000000|Y00000100
+!|1U0809H59J0000<><>|1B00000200LC030F00080F0000000F07000000|1U0H0QGM6P0000<><>
+!|w04042B0S11|1B00000206JK030E00080F0700000F07000000
+!|1U4W0CCK0H0000<>You are now in the Chat mode<>
+!|1B00000207CQ030E00080F0400040F07000000
+!|1U8W8WGO9C0000<>Exit Chat<>$restoreall$/X`m
+!|1B00000207CQ030E00080F0100040F07000000
+!|1U0K6W8C7K0000<>List people in parties<>/Lp`m
+!|1U8W6WGO7K0000<>List everyone in chat<>/L`m
+!|1B00000207CQ030E00080F0200040F07000000
+!|1U0K7O8C880000<>Invite someone to join your party<>/I $who?$`m
+!|1U0K8Y449E0000<>Join a Party<>/J $what_Party?$`m
+!|1U498Y8C9E0000<>Quit the party<>/q`m
+!|1U0K8C8C8U0000<>Send a message to your party only<>\\$what_message?$`m
+!|1B00000207CQ030E00080F0500040F07000000
+!|1U8W7PGO850000<>Attack another user in chat<>/A $what_Channel$`m
+!|1B00000207CQ030E00080F0300040F07000000|1U8W8AGO8Q0000<>More Help<>/?|e|#|#|#
+} T 
+
+
+CLRSCR {[2J},{
+!|1K|*|1b010102020002000000WODCLR|w0000270O12|#|#|#
+} T 
+
+
+TITLE {[0m[2J[34m∞±≤€≤±∞[1;30mƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ[0;34m∞±≤€≤±∞
+[31;44m∞±≤€≤±∞[37;40m   [34m∞        [1;33m‹ ‹   €€€€‹ €‹‹‹‹ €     €€‹      ‹‹‹‹‹          [0;34m∞   [31;44m∞±≤€≤±∞[37;40m
+[31m∞±≤€≤±∞  [34m∞±∞      [1;33m€   €  €   € €  ‹ﬂ €     €  €    €     ﬂ‹       [0;34m∞±∞  [31m∞±≤€≤±∞
+∞±≤€≤±∞[1;30m [0;34m∞±∞ [1;30m   [33m€ ‹   € [31m€   € €ﬂﬂ›  [33m€     €   € [31m‹  ﬂﬂﬂﬂ‹       [30m [0;34m∞±∞ [1;30m[0;31m∞±≤€≤±∞
+∞±≤€≤±∞[34m∞±≤[1;5;33;44m[0;34m≤±∞   [1;33m€  €  € [0;31mﬂ€€€€ €  €  [1m€€€‹  €  ‹ﬂ  [0;31mﬂ‹‹‹‹ﬂ        [34m∞±≤[1;5;33;44m[0;34m≤±∞[31m∞±≤€≤±∞
+∞±≤[1;33;44mG[0;31m≤±∞[34m± [37;46mﬁ[1;47m›[30;40m› [0;34m±    [1;31m€ € €          [0;31m€       ﬂ €€€ﬂ                 [34m± [37;46mﬁ[1;47m›[30;40m› [0;34m±[31m∞±≤[1;33;44mP[0;31m≤±∞
+∞±≤[1;33;44mR[0;31m≤±∞[34m≤ [37;46mﬁ[1;47m›[30;40m› [0;34m≤     [31mﬂ ﬂ          ﬂ                               [34m≤ [37;46mﬁ[1;47m›[30;40m› [0;34m≤[31m∞±≤[1;33;44mR[0;31m≤±∞
+∞±≤[1;33;44mA[0;31m≤±∞  [37;46mﬁ[1;47m›[30;40m›                 [33m€€€€‹ ‹€€€€                          [0;46mﬁ[1;47m›[30;40m›  [0;31m∞±≤[1;33;44mE[0;31m≤±∞
+∞±≤[1;33;44mP[0;31m≤±∞  [37;46mﬁ[1;47m›[30;40m›                 [33m€   € €ﬂ   ﬂ                         [0;46mﬁ[1;47m›[30;40m›  [0;31m∞±≤[1;33;44mS[0;31m≤±∞
+∞±≤[1;33;44mH[0;31m≤±∞  [37;46mﬁ[1;47m›[30;40m›                 [31m€   € €ﬂﬂ                            [0;46mﬁ[1;47m›[30;40m›  [0;31m∞±≤[1;33;44mE[0;31m≤±∞
+∞±≤[1;33;44mI[0;31m≤±∞  [1;30m[37;47m›[30;40m                 [0;31mﬂ€€€€ €                              [1;30m[37;47m›[30;40m  [0;31m∞±≤[1;33;44mN[0;31m≤±∞
+∞±≤[1;33;44mC[0;31m≤±∞   [1;30m                         [0;31m€                              [1;30m   [0;31m∞±≤[1;33;44mT[0;31m≤±∞
+∞±≤[1;33;44mW[0;31m≤±∞                              ﬂ                                 ∞±≤[1;33;44mS[0;31m≤±∞
+∞±≤[1;33;44mA[0;31m≤±∞   [1;33m€€‹   €€   €‹‹‹‹ €  €ﬂ    ‹   ‹€€€‹      ‹‹‹‹‹      ‹‹‹‹‹    [0;31m∞±≤[1;33;44m.[0;31m≤±∞
+∞±≤[1;33;44mR[0;31m≤±∞   [1;33m€  €  € €  €  ‹ﬂ €‹€       €  €ﬂ   ﬂ    €     ﬂ‹   €     ﬂ‹  [0;31m∞±≤[1;33;44m.[0;31m≤±∞
+∞±≤[1;33;44mE[0;31m≤±∞   [1;33m€   € [31m€‹‹€ €ﬂﬂ›  [33m€ﬂ‹   €€   € €€‹‹    [31m‹  ﬂﬂﬂﬂ‹   ‹  ﬂﬂﬂﬂ‹    [0;31m∞±≤[1;33;44m.[0;31m≤±∞
+∞±≤[1;33;44mS[0;31m≤±∞   [1m€  ‹ﬂ [0;31m€  € €  €  [1m€  €  [33m€ €  € [31m€‹   ‹ﬂ  [0;31mﬂ‹‹‹‹ﬂ     ﬂ‹‹‹‹ﬂ     ∞±≤[1;33;44m.[0;31m≤±∞
+∞±≤€≤±∞   €€€ﬂ     €   €     €   [1m€  € € [0;31mﬂ€€€ﬂ                          ∞±≤€≤±∞
+[44m∞±≤€≤±∞[37;40m           [31m€   ﬂ     ﬂ    €   €€                                [44m∞±≤€≤±∞[37;40m
+[34m∞±≤€≤±∞          [31mﬂ                                                     [34m∞±≤€≤±∞
+   [1;30m¿ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒŸ
+       [0;34m∞±≤€ Original De[1msign an[36md Progr[37mamm[36ming By Z[34mark Wiza[0;34mrd and Alf €≤±∞
+                                [1;37mPress ENTER },{
+!|1K|*|1b010102020002000000WODTLTP1|10000$SBAROFF$|10000$COFF$
+!|Y00000100|w0000270O12|1I004F00010WDTLT.ICN
+!|1I000000010WDTLT2.ICN|1B0000020PWW030F000F080100000F07000000
+!|1U4Q2OC8340000<>Click on the screen to continue\!<>|1M000000HQ9P0100000'm|#|#
+!|#
+} T 
+
+
+MMENU {[0m[2J[1m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª
+∫[0;41m             Selection Menu              [1;40m∫
+∫[41m         [33m8 & 2 to Move Selection         [37;40m∫
+∫ A [36mGenerate Character                    [37m∫
+∫ B Play Worlds of Darkness               ∫
+∫ C [36mView Player List                      [37m∫
+∫ D [30mView Legends Listing                  [37m∫
+∫ E [36mInstructions  (How do I play)         [37m∫
+∫ F [36mToggle RIP/ANSI                       [37m∫
+∫ G [36mSuicide Character                     [37m∫
+∫ H [36mExit to BBS                           [37m∫
+∫[33;41m                                         [37;40m∫
+»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº
+},{
+!|1K|*|1b010102020002000000WODTLTP|1I004500010MAIN2.ICN|1I000000010MAIN1.ICN|w0000000000
+!|1M002W0CEK1A1000000A|1M012V1BEK2G1000000B|1M022W2HEL3L1000000C
+!|1M032V3MEK4R1000000D|1M042V4REK5S1000000E|1M052W5TEL6Y1000000F
+!|1M062W6ZEK841000000G|1M072W86EK9K1000000H|#|#|#
+} T 
+
+
+MUMENU {[0m[2J[1m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª
+∫[0;41m             Selection Menu              [1;40m∫
+∫[41m         [33m8 & 2 to Move Selection         [37;40m∫
+∫ A [36mGenerate Character                    [37m∫
+∫ B Play Worlds of Darkness               ∫
+∫ C [36mView Player List                      [37m∫
+∫ D [30mView Legends Listing                  [37m∫
+∫ E [36mInstructions  (How do I play)         [37m∫
+∫ F [36mToggle RIP/ANSI                       [37m∫
+∫ G [36mSuicide Character                     [37m∫
+∫ H [36mExit to BBS                           [37m∫
+∫ I [32mWorlds of Darkness [37mEDITORS            ∫
+∫[33;41m                                         [37;40m∫
+»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº
+},{
+!|1K|*|1b010102020002000000WODTLTP|1I004500010MAIN2.ICN|1I000000010MAIN1.ICN|w0000000000
+!|1M002W0CEK1A1000000A|1M012V1BEK2G1000000B|1M022W2HEL3L1000000C
+!|1M032V3MEK4R1000000D|1M042V4REK5S1000000E|1M052W5TEL6Y1000000F
+!|1M062W6ZEK841000000G|1M072W86EK9K1000000H
+!|1B00000201DU030F000F080700040F07000000|Y00000100|1UFB0KHE140000<>SysOp<>I|#|#
+!|#
+} T 
+
+
+EOL {
+[0m[[1mN[0m][1;36mext, [0m[[1mENTER[0m] [1;36mSelects, [0m[[1m8-2[0m] [1;36mMove Selector, [0m([1mX Aborts[0m) [1m: } T 
+
+
+EDLIST0 {[0m[2J[1;32;44m Name                  [37;45m Type      [36;41m Range    [0;30;43m Dmg    [1;33;46m Special Power    [37;42m Cost    [0m
+} T 
+
+
+EDLIST {[0;1m %-23.23s[32m%-11.11s[33m%-10.10d%-8.8d[32m%-18.18s[33m%s
+} T 
+
+
+EDLIST1 {[0;1;44m %-22.22s} T 
+
+
+EDLIST2 {[0;1m %-22.22s} T 
+
+
+EDMON0 {[0m[2J[1;32;44m Name                            [37;45m Lvl [0;30;46m SP Attack  [1;37;42m SP Range   [43m Exp   [41m Gold  [0m
+} T 
+
+
+EDMON {[0;1m %-33.33s[32m%-5.5d[33m%-12.12s[32m%-12.12s[33m%-7.7d[32m%d
+} T 
+
+
+EDMON1 {[0;1;44m %-32.32s} T 
+
+
+EDMON2 {[0;1m %-32.32s} T 
+
+
+EDSPEL0 {[0m[2J[1;32;44m Name                  [37;45m Lvl [36;41m Class   [0;30;46m Type       [42m Target      [37;40m
+} T 
+
+
+EDSPEL {[0;1m %-23.23s[32m%-5.5d[33m%-9.9s%-12.12s[32m%s
+} T 
+
+
+EDRACE0 {[0m[2J[1;32;44m Name                  [37;45m Cast % [36;41m MR  [0m
+} T 
+
+
+EDRACE {[0;1m %-23.23s[32m%-7.7d[33m%d
+} T 
+
+
+EDCLAS0 {[0m[2J[1;32;44m Name                  [37;45m HP/Lvl [36;41m [0;30;41mMP/Lvl [37;40m
+} T 
+
+
+EDCLAS {[0;1m %-23.23s[32m%-8.8d[33m%d
+} T 
+
+
+DISCLA {[0m[2J[1;36mClass Name  : [35m[[33m%-20.20s[35m]      [37mClass #[5;33m%d
+
+[0;1;35mHit Points per       [36mLevel    Mage           Priest         [33mExp Needed
+[35mLevel : [[33m%-2.2d[35m]           [37m1   [[32m%-9.9s[37m]     [[32m%-9.9s[37m]     [33m[[36m%-10.10s[33m]
+[31mMagic Points per       [37m2   [[32m%-9.9s[37m]     [[32m%-9.9s[37m]     [33m[[36m%-10.10s[33m]
+[31mLevel : [[33m%-2.2d[31m]           [37m3   [[32m%-9.9s[37m]     [[32m%-9.9s[37m]     [33m[[36m%-10.10s[33m]
+[35mObject Type Limits     [37m4   [[32m%-9.9s[37m]     [[32m%-9.9s[37m]     [33m[[36m%-10.10s[33m]
+                       [37m5   [[32m%-9.9s[37m]     [[32m%-9.9s[37m]     [33m[[36m%-10.10s[33m]
+    [36mA - >[33m%-3.3s[36m<          [37m6   [[32m%-9.9s[37m]     [[32m%-9.9s[37m]     [33m[[36m%-10.10s[33m]
+    [36mB - >[33m%-3.3s[36m<          [37m7   [[32m%-9.9s[37m]     [[32m%-9.9s[37m]     [33m[[36m%-10.10s[33m]
+    [36mC - >[33m%-3.3s[36m<          [37m8   [[32m%-9.9s[37m]     [[32m%-9.9s[37m]     [33m[[36m%-10.10s[33m]
+    [36mD - >[33m%-3.3s[36m<          [37m9   [[32m%-9.9s[37m]     [[32m%-9.9s[37m]     [33m[[36m%-10.10s[33m]
+    [36mE - >[33m%-3.3s[36m<         [37m10   [[32m%-9.9s[37m]     [[32m%-9.9s[37m]     [33m[[36m%-10.10s[33m]
+    [36mF - >[33m%-3.3s[36m<         [37m11   [[32m%-9.9s[37m]     [[32m%-9.9s[37m]     [33m[[36m%-10.10s[33m]
+    [36mG - >[33m%-3.3s[36m<         [37m12   [[32m%-9.9s[37m]     [[32m%-9.9s[37m]     [33m[[36m%-10.10s[33m]
+    [36mH - >[33m%-3.3s[36m<         [37m13   [[32m%-9.9s[37m]     [[32m%-9.9s[37m]     [33m[[36m%-10.10s[33m]
+                      [37m14   [[32m%-9.9s[37m]     [[32m%-9.9s[37m]     [33m[[36m%-10.10s[33m]
+                      [37m15   [[32m%-9.9s[37m]     [[32m%-9.9s[37m]     [33m[[36m%-10.10s[33m]
+                        [37m([31mSpells gained at each level[37m)   [33m([35mNext Level Raise[33m)
+                         [37m([31mClasses max at 100 spells[37m)    [33m([35mMAX = 2000000000[33m)
+             [37m([31mYou can't have more than 50 Mage, and 50 Priest each[37m)
+
+[[33mX[0m] [1;36mAborts, [0m[[1;33mS[0m][1;36melects [0m[[1;33mN[0m][1;36mext, [0m[[1;33mP[0m][1;36mrevious, [0m[[1;33mRecord #[0m] [1;36m: },{
+!|1K|*|1b010102020002000000WODCLR|Y00000100|1I003R00010CLASS2.ICN|1I000000010CLASS1.ICN|w0000000000
+!|1B00000206JK030E080F080000080F07000000
+!|1U3M0H8X0S0000<>%s<>
+!|1UCD0IEB0S0000<>%d<>
+!|1U221U2U230000<>%d<>
+!|1U6Y1U9C280000<>%s<>
+!|1UAU1VDG280000<>%s<>
+!|1UEG1UH3280000<>%s<>
+!|1U6Y289G2O0000<>%s<>
+!|1UAU28DG2O0000<>%s<>
+!|1UEG28H82O0000<>%s<>
+!|1U222P2T300000<>%d<>
+!|1U6Y2O96340000<>%s<>
+!|1UAU2ODC340000<>%s<>
+!|1UEG2OGY340000<>%s<>
+!|1U6Y34963K0000<>%s<>
+!|1UAU34DC3K0000<>%s<>
+!|1UEG34GY3K0000<>%s<>
+!|1U6Y3K96400000<>%s<>
+!|1UAU3KDC400000<>%s<>
+!|1UEG3KGY400000<>%s<>
+!|1U1Y40324G0000<>%s<>
+!|1U6Y40964G0000<>%s<>
+!|1UAU40DC4G0000<>%s<>
+!|1UEG40GY4G0000<>%s<>
+!|1U1Y4G324W0000<>%s<>
+!|1U6Y4G964W0000<>%s<>
+!|1UAU4GDC4W0000<>%s<>
+!|1UEG4GGY4W0000<>%s<>
+!|1U1Y4W325C0000<>%s<>
+!|1U6Y4W965C0000<>%s<>
+!|1UAU4WDC5C0000<>%s<>
+!|1UEG4WGY5C0000<>%s<>
+!|1U1Y5C325S0000<>%s<>
+!|1U6Y5C965S0000<>%s<>
+!|1UAU5CDC5S0000<>%s<>
+!|1UEG5CGY5S0000<>%s<>
+!|1U1Y5S32680000<>%s<>
+!|1U6Y5S96680000<>%s<>
+!|1UAU5SDC680000<>%s<>
+!|1UEG5SGY680000<>%s<>
+!|1U1Y68326O0000<>%s<>
+!|1U6Y68966O0000<>%s<>
+!|1UAU68DC6O0000<>%s<>
+!|1UEG68GY6O0000<>%s<>
+!|1U1Y6O32740000<>%s<>
+!|1U6Y6O96740000<>%s<>
+!|1UAU6ODC740000<>%s<>
+!|1UEG6OGY740000<>%s<>
+!|1U1Y74327K0000<>%s<>
+!|1U6Y74967K0000<>%s<>
+!|1UAU74DC7K0000<>%s<>
+!|1UEG74GY7K0000<>%s<>
+!|1U6Y7K96800000<>%s<>
+!|1UAU7KDC800000<>%s<>
+!|1UEG7KGY800000<>%s<>
+!|1U6Y80968G0000<>%s<>
+!|1UAU80DC8G0000<>%s<>
+!|1UEG80GY8G0000<>%s<>
+!|1M00008O289C1000000x`m|1M01288O469C1000000S`m|1M02468O649C1000000N`m
+!|1M03648O8C9C1000000P`m|1M04AA8OF09C1000000$goto_what_record_#$`m|#|#|#
+} T 
+
+
+DISRAC {[0m[2J[1;36mRace Name   : [1;32m[[31m%-20.20s[32m]      [1;37mRace #[5;33m%d
+
+[0m[1;32mCasting Ability : [[31m%3.3s[32m%%]
+
+Attributes: [37m+/- [32m=  Bonus for this class.
+            [37mMAX [32m=  Max amount class can get.
+
+               [37m+/-   MAX         [32mMagic Resistance : [[31m%3.3s[32m%%]
+          STR [[31m%3.3s[32m] [[31m%3.3s[32m]
+          DEX [[31m%3.3s[32m] [[31m%3.3s[32m]        Element Resistance :   EARTH  [[31m%3.3s[32m%%]
+          INT [[31m%3.3s[32m] [[31m%3.3s[32m]                               FIRE   [[31m%3.3s[32m%%]
+          WIS [[31m%3.3s[32m] [[31m%3.3s[32m]                               WATER  [[31m%3.3s[32m%%]
+          CON [[31m%3.3s[32m] [[31m%3.3s[32m]                               AIR    [[31m%3.3s[32m%%]
+          CHR [[31m%3.3s[32m] [[31m%3.3s[32m]
+          LCK [[31m%3.3s[32m] [[31m%3.3s[32m]
+          HP  [[31m%3.3s[32m]
+
+[[1;33mX[0m] [1;36mAborts, [0m[[1;33mS[0m][1;36melects [0m[[1;33mN[0m][1;36mext, [0m[[1;33mP[0m][1;36mrevious, [0m[[1;33mRecord #[0m] [1;36m: },{
+!|1K|*|1b010102020002000000WODCLR|w0010271610|1I004600010RACE2.ICN|1I000000010RACE1.ICN|w0Z0W2J1211
+!|Y00000100|1B00000206JK030E080F080000080F07000000
+!|1U3Q0J910V0000<>%s<>
+!|1UC20ICP0V0000<>%d<>
+!|1U4O1J5R1V0000<>%d<>
+!|1UDB3YEF4B0000<>%d<>
+!|1U3W4G504W0000<>%d<>
+!|1U5A4G6E4W0000<>%d<>
+!|1U3W4W505C0000<>%d<>
+!|1U5A4W6E5C0000<>%d<>
+!|1UG44YGY5C0000<>%d<>
+!|1U3W5C505S0000<>%d<>
+!|1U5A5C6E5S0000<>%d<>
+!|1UG45DGY5T0000<>%d<>
+!|1U3W5U506A0000<>%d<>
+!|1U5A5U6E6A0000<>%d<>
+!|1UG55VGZ6B0000<>%d<>
+!|1U3W6B506R0000<>%d<>
+!|1U5A6B6E6R0000<>%d<>
+!|1UG46GGY6T0000<>%d<>
+!|1U3W6V507B0000<>%d<>
+!|1U5A6V6E7B0000<>%d<>
+!|1U3W7E507U0000<>%d<>
+!|1U597E6D7U0000<>%d<>
+!|1U3X7W5W880000<>%d<>
+!|1M00008S2N9H1000000X`m|1M012O8S4O9H1000000S`m|1M024P8S6F9H1000000N`m
+!|1M036H8S8R9H1000000P`m|1M04B48RDR9G1000000$Goto_What_Record#$`m|#|#|#
+} T 
+
+
+TGABKS {[0;1;36mThanks for playing.....
+
+                  [37mWorlds of Darkness [33m%s [37m([33mc[37m)95
+
+
+[0m[[1;31mPress ENTER[0m] },{
+!|*|1C0522HR5A0|1B00000200LC030F000F080700000F07000000|Y00000100
+!|1U0G2AHN550000<><>|1M010R2IH34C1000000`m|Y00000200
+!|1B00000206JK030C000B010700000D07000000|1U0O2OH2390000<>Thanks for Playing\!
+!|1U0P3KH3450000<>Worlds of Darkness %s (c)95<>
+!|Y00000100|1B00000207QA030B000B010900060D07000000|1U764NAQ510020<>OK<>`m
+!|w0000000000|#|#|#
+} T 
+
+
+UTLMENU {[0m[2J[1m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª
+∫[0;41m             Selection Menu              [1;40m∫
+∫[41m         [33m8 & 2 to Move Selection         [37;40m∫
+[44m∫[40m A [34mDatabase Editors                      [37m∫
+[44m∫[36;40m [37mB [34mSqueeze Maps                          [37m∫
+[44m∫[36;40m [37mC [34mSet Config Options                    [37m∫
+[44m∫[0m [1mD [34mView map                              [37m∫
+[44m∫[0m [1mE [34mView levers                           [37m∫
+∫ F [34mPrevious menu                         [37m∫
+∫[33;41m                                         [37;40m∫
+»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº
+},{
+!|w0000270O12|#|#|#
+[0m[2J[1m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª
+∫[0;41m             Selection Menu              [1;40m∫
+∫[41m         [33m8 & 2 to Move Selection         [37;40m∫
+[44m∫[40m A [34mDatabase Editors                      [37m∫
+[44m∫[36;40m [37mB [34mSqueeze Maps                          [37m∫
+[44m∫[36;40m [37mC [34mSet Config Options                    [37m∫
+[44m∫[0m [1mD [34mView map                              [37m∫
+[44m∫[0m [1mE [34mView levers                           [37m∫
+∫ F [34mPrevious menu                         [37m∫
+∫[33;41m                                         [37;40m∫
+»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº
+} T 
+
+
+MOVWOT {Wot yor moove: } T 
+
+
+COMPDAT {[0m[2J                            [32;46m±±±±[30mN^[32m±±±[31;43m±±±±±±±±±≤≤€[1;37;41m   Your Status   [0;31;43m€≤≤±±±±±±±±±±[37;40m
+                            [32;46m±[1;37;40m       [0;32;46m±[31;43m±[1;37;40m [33mHP    [37m:              [33mMax HP [37m:          [0;31;43m±[37;40m
+                            [32;46m±[1;37;40m       [0;32;46m±[31;43m±[1;37;40m [33mMP    [37m:              [33mMax MP [37m:          [0;31;43m±[37;40m
+                            [32;46m±[1;37;40m       [0;32;46m±[31;43m±[1;37;40m [33mExp   [37m:              [33mNeeded [37m:          [0;31;43m±[37;40m
+                            [30;46mW[1;37;40m       [0;30;46mE[31;43m±[37;40m [1;33mAC    [37m:              [33mLvl    [37m:          [0;31;43m±[37;40m
+                            [32;46m±[1;37;40m       [0;32;46m±[31;43m±[1;37;40m [33mGold  [37m:              [33mState  [37m:          [0;31;43m±[37;40m
+                            [32;46m±[1;37;40m       [0;32;46m±[31;43m±[1;37;40m [36mArmor [37m:                                [0;31;43m±[37;40m
+                            [32;46m±[1;37;40m       [0;32;46m±[31;43m±[1;36;40m Pweap [37m:                                [0;31;43m±[37;40m
+                            [32;46m±±±±[30mS[32m±±±±[31;43m±[37;40m [1;36mSweap [37m:                                [0;31;43m±[37;40m
+                                     [31;43m±[37;40m                                        [31;43m±[37;40m
+[s                                     [31;43m±[37;40m [1;31mKills    [37m:     [31mWin Fight %%     [37m:       [0;31;43m±[u
+[0m                                     [31;43m±[37;40m [1;35mDirection[37m:     [35mCurrent Position[37m:       [0;31;43m±[37;40m
+                                     [31;43m±[1;37;41m                                        [0;31;43m±[37;40m
+                                     [31;43m±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±[37;40m
+
+},{
+!|1I5P0000010STATUS|1B0000020080020E0001010000080101000000|Y02000400
+!|1UB70WCZ140000<>%d<>
+!|1UET0WGL130000<>%d<>
+!|1UB817D11E0000<>%d<>
+!|1UES17GO1D0000<>%d<>
+!|1UB81HD41O0000<>%s<>
+!|1UES1HGP1N0000<>%s<>
+!|1UB81RD51X0000<>%d<>
+!|1UET1RGP1X0000<>%d<>
+!|1UB721D3270000<>%s<>
+!|1UEW21GS260000<>%s<>
+!|1UB82HGO2M0000<>%s<>
+!|1UB82QGP2W0000<>%s<>
+!|1UB830GN370000<>%s<>
+!|1UB63GD43K0000<>%s<>
+!|1UF43FH03L0000<>%d%%<>
+!|w0000000000|#|#|#
+} T 
+
+
+COMPRST {[1;29H[0;1m[0;32;46m±±±±[30mN^[32m±±±[31;43m±±±±±±±±±≤≤€[1;37;41m   Your Status   [0;31;43m€≤≤±±±±±±±±±±[37;40m
+[2;29H[32;46m±[1;37;40m       [0;32;46m±[31;43m±[1;37;40m [33mHP    [37m:              [33mMax HP [37m:          [0;31;43m±[37;40m
+[3;29H[32;46m±[1;37;40m       [0;32;46m±[31;43m±[1;37;40m [33mMP    [37m:              [33mMax MP [37m:          [0;31;43m±[37;40m
+[4;29H[32;46m±[1;37;40m       [0;32;46m±[31;43m±[1;37;40m [33mExp   [37m:              [33mNeeded [37m:          [0;31;43m±[37;40m
+[5;29H[30;46mW[1;37;40m       [0;30;46mE[31;43m±[37;40m [1;33mAC    [37m:              [33mLvl    [37m:          [0;31;43m±[37;40m
+[6;29H[32;46m±[1;37;40m       [0;32;46m±[31;43m±[1;37;40m [33mGold  [37m:              [33mState  [37m:          [0;31;43m±[37;40m
+[7;29H[32;46m±[1;37;40m       [0;32;46m±[31;43m±[1;37;40m [36mArmor [37m:                                [0;31;43m±[37;40m
+[8;29H[32;46m±[1;37;40m       [0;32;46m±[31;43m±[1;36;40m Pweap [37m:                                [0;31;43m±[37;40m
+[9;29H[32;46m±±±±[30mS[32m±±±±[31;43m±[37;40m [1;36mSweap [37m:                                [0;31;43m±[37;40m
+[10;38H[31;43m±[37;40m                                        [31;43m±[37;40m
+[11;38H[31;43m±[37;40m [1;31mKills    [37m:     [31mWin Fight %%     [37m:       [0;31;43m±[37;40m
+[12;38H[31;43m±[37;40m [1;35mDirection[37m:     [35mCurrent Position[37m:       [0;31;43m±[37;40m
+[13;38H[31;43m±[1;37;41m                                        [0;31;43m±[37;40m
+[14;38H[31;43m±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±[37;40m
+
+},{
+!|1I5P0000010STATUS.ICN|1B0000020080020E0001010000080101000000|Y02000400
+!|1UB70WCZ140000<>%d<>
+!|1UET0WGL130000<>%d<>
+!|1UB817D11E0000<>%d<>
+!|1UES17GO1D0000<>%d<>
+!|1UB81HD41O0000<>%s<>
+!|1UES1HGP1N0000<>%s<>
+!|1UB81RD51X0000<>%d<>
+!|1UET1RGP1X0000<>%d<>
+!|1UB721D3270000<>%s<>
+!|1UEW21GS260000<>%s<>
+!|1UB82HGO2M0000<>%s<>
+!|1UB82QGP2W0000<>%s<>
+!|1UB830GN370000<>%s<>
+!|1UB63GD43K0000<>%s<>
+!|1UF43FH03L0000<>%d%%<>
+!|w0000000000|#|#|#
+} T 
+
+
+PLSTAT {[1;38H[0m[31;43m±±±±±±±±±≤≤€[1;37;41m                 [0;31;43m€≤≤±±±±±±±±±±[37;40m
+[2;38H[31;43m±[1;37;40m [33mHP    [37m:                  [33mStr[37m:          [0;31;43m±[37;40m
+[3;38H[31;43m±[1;37;40m [33mMP    [37m:                  [33mDex[37m:          [0;31;43m±[37;40m
+[4;38H[31;43m±[1;37;40m [33mAge   [37m:                  [33mInt[37m:          [0;31;43m±[37;40m
+[5;38H[31;43m±[37;40m [1;33mLevel [37m:                  [33mWis[37m:          [0;31;43m±[37;40m
+[6;38H[31;43m±[1;37;40m [33mClass [37m:                  [33mCon[37m:          [0;31;43m±[37;40m
+[7;38H[31;43m±[1;37;40m [33mRace  [37m:                  [33mChr[37m:          [0;31;43m±[37;40m
+[8;38H[31;43m±[1;36;40m [33mExp   [37m:                  [33mLck[37m:          [0;31;43m±[37;40m
+[9;38H[31;43m±[37;40m [1;33mPP    [37m:                   [33mAC[37m:          [0;31;43m±[37;40m
+[10;38H[31;43m±[37;40m           [1;33mConditions                   [0;31;43m±[37;40m
+[11;38H[31;43m±[37;40m                                        [31;43m±[37;40m
+[12;38H[31;43m±[37;40m                                        [31;43m±[37;40m
+[13;38H[31;43m±[1;37;41m                                        [0;31;43m±[37;40m
+},{
+!|Y00000100|1B0000020PX4020F000F080100000F07000000|1U9608HI460000<><>
+!|1B0000020080020F0001010100000101000000
+!|1U9G0FH80U0000<>%s's Status<>
+!|1B0000020080020E0001010100080101000000|Y02000400
+!|1U9L0UCI140000<>Hp    : %d/%d<>
+!|1UDR0UGY140000<>Str   : %d/%d<>
+!|1U9L14CI1E0000<>Mp    : %d/%d<>
+!|1UDR14GY1E0000<>Dex   : %d/%d<>
+!|1U9L1ECI1O0000<>Age   : %d<>
+!|1UDR1EGY1O0000<>Int   : %d/%d<>
+!|1U9L1OCI1Y0000<>Level : %d<>
+!|1UDR1OGY1Y0000<>Wis   : %d/%d<>
+!|1U9L1YCI280000<>Class : %s<>
+!|1UDR1YGY280000<>Con   : %d/%d<>
+!|1U9L28CI2I0000<>Race  : %s<>
+!|1UDR28GY2I0000<>Chr   : %d/%d<>
+!|1U9L2ICI2S0000<>Exp   : %s<>
+!|1UDR2IGY2S0000<>Luck  : %d/%d<>
+!|1U9L2SCI320000<>PP    : %s<>
+!|1UDR2SGY320000<>AC    : %d<>
+!|1B0000020080020F0001010100080101000000
+!|1UAZ32EV3C0000<>Outstanding Conditions<>
+!|1U9L3CCI3M0000<>%s<>
+!|1UDM3CGY3M0000<>%s<>
+!|1U9L3MCI3W0000<>%s<>
+!|1UDM3MGY3W0000<>%s<>
+!|w0000000000|#|#|#
+} T 
+
+
+HBANG {[1;37mBONK!![1;33m   Ouch!! I hate running into walls},{
+!|Y00000100|c0F|@004OBONK\!\!|c0E|@1K4OI hate running into WALLS\!|#|#|#
+} T 
+
+
+INTOX {[1;37m[0;41m You are intoxicated.  [0;40m},{
+!|c0D|W00|Y00000100|@AO4OAwareness:|c0E|@D44OINTOXICATED\!|#|#|#
+} T 
+
+
+SUMMAT {[13;44H[1;37m[0;41mThere is stuff on the ground[0;40m},{
+!|c0F|W00|Y00000100|@AO4OThere are items on the ground\!|#|#|#
+} T 
+
+
+SUMBIT {[13;44H[1;37m[0;41m          [0;40m},{
+!|#|#|#
+[0m
+
+
+
+
+                                           [41m          } T 
+
+
+SOBER {[1;37m[0;41m You are sober.        [0;40m},{
+!|c0D|W00|Y00000100|@AO4OAwareness:|c0E|@D44OSober.|#|#|#
+} T 
+
+
+INEB {[1;37m[0;41m You are inebriated.   [0;40m},{
+!|c0D|W00|Y00000100|@AO4OAwareness:|c0E|@D44OInebriated\!|#|#|#
+} T 
+
+
+DRUNK {[1;37m[0;41m You are drunk.        [0;40m},{
+!|c0D|W00|Y00000100|@AO4OAwareness:|c0B|@D44ODRUNK\!|#|#|#
+} T 
+
+
+TBORD {[0;32m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+} T 
+
+
+BBORD {[0;32mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+} T 
+
+
+LBORD {[0;32m€} T 
+
+
+RBORD {[0;32m€
+} T 
+
+
+MAKECHAR {[0m[2J
+[1;36mYou must create a character before you can start playing.
+
+Hit [33mANYKEY [36mto continue.},{
+!|1C0522HR5A0|10000$stw$|10000$smf$|10000$scb$|1K
+!|1B00000200LC030F000F080700000F07000000|Y00000100|1U0G2AHN550000<><>
+!|1M010R2IH34C1000000`h$RTW$$RMF$$PCB$$RCB$|w0010271610|Y00000200
+!|1B00000206JK030C000B010700000D07000000
+!|1U0Q37H43S0000<>You must create your player first\!\!<>|Y00000100
+!|1B00000207QA030B000B010900060D07000000
+!|1U764NAQ510020<>OK<>`h$rtw$$rmf$$pcb$$rcb$|w0000000000|#|#|#
+} T 
+
+
+SUICIDE {[0m[2J
+[1;36mYou already have a character in the game.  Use the [37mSUICIDE [36moption
+to start a new game.
+
+Hit [32mANYKEY [36mto continue.},{
+!|1C0522HR5A0|10000$stw$|10000$smf$|10000$scb$|1K
+!|1B00000200LC030F000F080700000F07000000|Y00000100|1U0G2AHN550000<><>
+!|1M010R2IH34C1000000`h$RTW$$RMF$$PCB$$RCB$|w0010271610|Y00000200
+!|1B00000206JK030C000B010700000D07000000
+!|1U0Q2GH4310000<>You have a player and must\!<>
+!|1U0Q37H43S0000<>Use SUICIDE to start a new player\!<>|Y00000100
+!|1B00000207QA030B000B010900060D07000000
+!|1U764NAQ510020<>OK<>`h$rtw$$rmf$$pcb$$rcb$|w0000000000|#|#|#
+} T 
+
+
+OBJDAT {[0m[2J
+[1;36mWhich Database do you want to edit:
+
+[0m[[1;33m1[0m]  [1mObjects
+[0m[[1;33m2[0m]  [1mSpells
+[0m[[1;33m3[0m]  [1mRaces
+[0m[[1;33m4[0m]  [1mClasses
+[0m[[1;33m5[0m]  [1mMonsters
+[0m[[1;33mX[0m]  [1mLeave
+
+[36mEnter selection : },{
+!|w0000270O12|#|#|#
+[0m[2J
+[1;36mWhich Database do you want to edit:
+
+[0m[[1;33m1[0m]  [1mObjects
+[0m[[1;33m2[0m]  [1mSpells
+[0m[[1;33m3[0m]  [1mRaces
+[0m[[1;33m4[0m]  [1mClasses
+[0m[[1;33m5[0m]  [1mMonsters
+[0m[[1;33mX[0m]  [1mLeave
+
+[36mEnter selection : } T 
+
+
+OBJMNU {[0m
+[0m[[1;33mE[0m][1mdit / Create %s    [0m[[1;33mL[0m][1mist %s
+
+[36mYour selection : } T 
+
+
+NONEW {[0m
+[1;31mNo changes were made... Save aborted....
+} T 
+
+
+NOSAVE {[0m
+[1;31mChanges not saved.....
+} T 
+
+
+EDOBJ1 {[0m
+[1;36mEnter the name of the [31m%s [36myou want to edit ([0m20 chars[1;36m)
+[37m-=> } T 
+
+
+NOOBJ {[0m
+[1;31mSorry, there is nothing named [33m%s [31mhere.
+} T 
+
+
+NEWDATA {[0m
+[1;32mChanges were saved...  Standby updating file.....
+} T 
+
+
+THELST {[0m[2J[34m∞±≤€[1;33;44mHere is a list of %ss [0;34m≤±∞
+} T 
+
+
+USRLNE {[0m
+[1m%-40.40s %s} T 
+
+
+USRLNE1 {
+%s %s %d %d %s} T 
+
+
+QORC {[0m
+[1;32m[[35mQ[32m]uit, [[35mC[32m]ontinue [37m: } T 
+
+
+TRAIL {[0m
+[1;32m*** [36mEnd of List [32m***
+} T 
+
+
+CLBAR {[0;1m Movement [0m[[1;31m7 [33m& [31m9 [33mturn your player [37mleft/right[0m] [[1;32m8 [33m& [32m2 [33mmove [37mforward/backward[0m]
+  [1;31m7 [32m8 [31m9   [0m[[1;32m4 [33m& [32m6 [33mmove character 1 step to the side [37mleft/right[0m]
+  [1;32m4 [37m* [32m6
+    2     [0;36m[[1;35mI[33mnventory [35mG[33met Item [35mU[33mse item [35mD[33mrop item [35mR[33meady item Snoo[35mZ[33me[0;36m]
+          [[1;35mC[33mast spell [35mE[33mnter shop [35mS[33mwitch [35mT[33malk [35mW[33mhodat [35mQ[33muit [ ]Redraw[0;36m]
+          [[1;35m+[33mView Stats Scri[35mB[33mble E[35mY[33meSpy [35mN[33motify[0;36m] [1;37m-=> },{
+!|1K|*|1b010102020002000000WODCLR|w0010271610|1I006C00010PANEL.ICN|w000K270R10|1M000A6G3H6V1000000I
+!|1M010A6Z3H7E1000000R|1M020A7I3H7X1000000P|1M030A823H8H1000000D
+!|1M040A8L3H901000000+|1M050A953H9K1000000B|1M06BA6JDS6Z1000000W
+!|1M07BA75DS7L1000000U|1M08BA7QDS861000000E|1M09BA8BDS8Q1000000C
+!|1M0ABA8VDS9B1000000  `h|1M0BE56JGN6Y1000000Y|1M0CE575GN7K1000000N
+!|1M0DE57RGN861000000Z|1M0EE58BGN8R1000000H|1M0FE58VGN9B1000000T
+!|1M0G4N8XB09M1000000Q|1M0H7O6K8Q7K10000007|1M0I9S6LAT7K10000009
+!|1M0J8R6K9S7L10000008|1M0K7O7L8R8L10000004|1M0L9S7MAT8M10000006
+!|1M0M8T7L9R8M10000002|#|#|#
+} T 
+
+
+ANYKEY {[0;1;33mPress Any Key!} T 
+
+
+UCBANK {[0;31m∞±≤€[1;37;41mA Bank[0;31m€≤±∞} T 
+
+
+UCWARGLD {[0;31m∞±≤[1;37;41m Warrior Guild [0;31m≤±∞} T 
+
+
+UCWIZGLD {[0;31m∞±≤€[1;37;41mWizard Guild[0;31m€≤±∞} T 
+
+
+UCCHURCH {[0;31m∞±≤[1;37;41m A Church [0;31m≤±∞} T 
+
+
+UCJAIL {[0;31m∞±≤[1;37;41m Jail[0;31m€≤±∞} T 
+
+
+UCGSHOP {[0;31m∞±≤[1;37;41m General Shop [0;31m≤±∞} T 
+
+
+UCINN {[0;31m∞±≤[1;37;41m Inn [0;31m≤±∞ } T 
+
+
+UCTAVRN {[0;31m∞±≤[1;37;41m Tavern [0;31m≤±∞} T 
+
+
+UCCASINO {[0;31m∞±≤[1;37;41m Casino [0;31m≤±∞} T 
+
+
+UCWSHOP {[0;31m∞±≤[1;37;41m Weapons Shop [0;31m≤±∞} T 
+
+
+UCTHVGLD {[0;31m∞±≤[1;37;41m Thieves Guild [0;31m≤±∞ } T 
+
+
+UCXPORT {[0;31m∞±≤€[1;37;41mTeleporter[0;31m€≤±∞} T 
+
+
+UCPALIS {[0;31m∞±≤€[1;37;41mPalace [0;31m≤±∞} T 
+
+
+UCARENA {[0;31m∞±≤[1;37;41m Arena [0;31m≤±∞} T 
+
+
+UCSTUP {[0;31m∞±≤[1;37;41m Stairs Up [0;31m≤±∞ } T 
+
+
+UCSTDWN {[0;31m∞±≤€[1;37;41mStairs Down[0;31m€≤±∞} T 
+
+
+UCDOOR1 {[0;31m∞±≤[1;37;41m Door! [0;31m≤±∞} T 
+
+
+UCDOOR2 {[0;31m∞±≤€[1;37;41mPortcullis![0;31m€≤±∞ } T 
+
+
+NUTHN {[0;1;31mYou see nothing. } T 
+
+
+NUTHNN {[0;1;31mYou see nothing now. } T 
+
+
+TAVERN {[0m[2J [1;34m€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+ €          [0;31mLa Bar                   [1;34m€
+ €      [0;35m⁄ƒƒ¬ƒƒ¬ƒƒ¬ƒƒ¬ƒƒø             [1;34m€
+ €      [0;35m√ƒƒ≈ƒƒ≈ƒƒ≈ƒƒ≈ƒƒ¥             [1;34m€
+ €      [0;35m√ƒƒ≈ƒƒ≈[1;34m [0;35m≈ƒƒ≈ƒƒ¥             [1;34m€
+ €      [0;35m¿ƒƒ¡ƒƒ[1;34mÙŒ˚ [0;35mƒƒ¡ƒƒŸ             [1;34m€
+ € [0;33m∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞      [1;34m€
+ € [30m€€€€€€€€€€€€€€€€€€€€€€€€€€        [34m€
+ € [30m€€€€€€€€€€€€€€€€€€€€€€€€€€        [34m€
+ € [30m€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€    [34m€
+ € [0;34m€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€ [1m€
+ €€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+},{
+!|1K|*|1b010102020002000000WODCLR|w0000270O12|1I000000010TAvern.ICN|#|#|#
+} T 
+
+
+INN {[0m[2J [1;34m€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+ €                                   €
+ €  [0;34m⁄ƒƒƒƒƒƒƒƒƒƒƒƒƒø [32m⁄ƒƒ¬¬ƒƒø         [1;34m€
+ €  [0;34m≥≥ÔÔ È’ hÜdÈw≥ [32m≥  ≥≥  ≥         [1;34m€
+ €  [0;34m¿ƒƒƒƒƒƒƒƒƒƒƒƒƒŸ [32m≥  ≥≥  ≥         [1;34m€
+ €        [0m         [32m¿ƒƒ¡¡ƒƒŸ         [1;34m€
+ €       [0mÙŒ˚                       [1;34m€€€
+ €   [0;33m∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞            [1;34m€€€€
+ €   [0m€€€€€€€€€€€€€€€             [1;34m€€€€€
+ €   [0m€€€€€€€€€€€€€€€            [1;34m€€€€€€
+ €[36m€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€[34m€
+ €[36m€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€[34m€
+ €€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+  [0;34mWelcome to the Foxes Den...
+},{
+!|w0000270O12|1I010000010INN|#|#|#
+} T 
+
+
+ARENA {[0m[2J [33m€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+ €                                   €
+ €   ≥                               €
+ €   ≥      [1;31m⁄ƒƒƒƒƒƒƒƒø               [0;33m€
+ €   ÿ  [1;32m‡   [31m≥  Arena ≥               [0;33m€
+ €      [1;32m≥   [31m¿ƒƒƒƒƒƒƒƒŸ               [0;33m€
+ €                                   €
+ €   [1m€€€                  [36m     [33m€€€  [0;33m€
+ €  [32m∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞    [1;36m‘Œæ    [33m€€€  [0;33m€
+ €   [1m€[0;32m∞∞∞∞∞∞∞∞∞∞∞         [1;36mÔ     [33m€€€  [0;33m€
+ €[37m€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€[33m€
+ €[37m€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€[33m€
+ €€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+} T 
+
+
+WPNSHOP {[0m[2J[1;35m⁄ƒ¬[0;35mƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ[1m¬ƒø
+√[37mƒŸ                               ¿ƒ[35m¥
+[0;35m≥            [1;30;47m›[37mWEAPONS[30mﬁ[0m              [35m≥
+≥                                   ≥
+≥ [1;5;31m                                 [0;35m≥
+≥ [1;30m—     [0m≥                           [35m≥
+≥ [33m≥     [1;30m≥ ‡                   [34m‹‹‹‹‹ [0;35m≥
+≥ [33m≥ [1m∞±≤ [0;34m≈ [31mÿ              [1;33m    [34;44m›[33;40m€≤±[34;44mﬁ[0m [35m≥
+≥ [33m≥[32m∞±≤€[1;42m∞±≤€≤±∞[0;32m€≤±∞      [1;33m‘[0;34mŒ[1;33m∏   [34;44m›[33;40m€≤±[34;44mﬁ[0m [35m≥
+≥ [33m≥ [1m∞[0;32m∞±≤€[1;42m∞±≤[0;32m€≤±∞         [1;31mÔ    [34;44m›[33;40m€≤±[34;44mﬁ[0m [35m≥
+≥[37m€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€[35m≥
+[1m√[37mƒø[0m€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€[1m⁄ƒ[35m¥
+¿ƒ¡[0;35mƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ[1m¡ƒŸ
+},{
+!|1K|*|1b010102020002000000WODCLR|w0000270O12|1I000000010WWWEAPON|#|#|#
+} T 
+
+
+CLERIC {[0m[2J [1;35m€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+ € [0;33m’ÕÕÕ∏                      ’ÕÕÕ∏ [1;35m€
+ € [0;33m≥[32m∞[1;36m∞[35m∞[0;33m≥                      ≥[32m∞[1;36m∞[35m∞[0;33m≥ [1;35m€
+ € [0;33m≥[1;32m∞[0;36m∞[35m∞[33m≥                      ≥[1;32m∞[0;36m∞[35m∞[33m≥ [1;35m€
+ € [0;33m≥[1;36m∞[0;32m∞[31m∞[33m≥       [1m             [0;33m≥[1;36m∞[0;32m∞[31m∞[33m≥ [1;35m€
+ € [0;33m≥[32m∞[35m∞[1m∞[0;33m≥       ≥    ≥         ≥[32m∞[35m∞[1m∞[0;33m≥ [1;35m€
+ € [0;33m≥[1;35m∞[0;36m∞[1m∞[0;33m≥       [37m∞±≤≤±∞         [33m≥[1;35m∞[0;36m∞[1m∞[0;33m≥ [1;35m€
+ € [0;33m‘ÕÕÕæ [1m   [0m∞±≤≤±∞ [1;33m     [0;33m‘ÕÕÕæ [1;35m€
+ €       [0;36m≥ ≥ ≥ [37m∞±  ±∞ [36m≥ ≥ ≥         [1;35m€
+ €      [0m∞∞±±≤≤[1;47m∞±≤€€≤±∞[0m≤≤±±∞∞        [1;35m€
+ €   [0;33m∞∞±±≤≤‹‹‹‹‹‹‹‹‹‹‹‹‹‹≤≤±±∞∞     [1;35m€
+ € [0;33m∞∞±±≤≤‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹≤≤±±∞∞ [1;35m€
+ €€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+  [34mWelcome to the Temple of Cazar
+},{
+!|1K|*|1b010102020002000000WODCLR|w0000270O12|1I000000010church|#|#|#
+} T 
+
+
+MAGE {[0m[2J[1;35m⁄¬[0;35mƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ[1mƒ¬ø
+√[37mŸ          [30m‹‹‹‹‹‹‹‹‹‹‹           [37m¿[35m¥
+[0;35m≥      [1;33m   [30;47m›[37;40m€[30;47mﬁúËëë ›[37;40m€[30;47mﬁ[0m [1;33m         [0;35m≥
+≥      [33m≥  ≥ [1;30;47m›[37;40m€[30;47mﬁíëë¶ ›[37;40m€[30;47mﬁ[0m [33m≥  ≥       [35m≥
+≥      [37mË  Ë [1;30;47m›[37;40m€[30;47mﬁù¸ù¯ ›[37;40m€[30;47mﬁ[0m Ë  Ë       [35m≥
+≥      [1;34;44mﬁ[36;46mﬁ›[34;44m›[0m [1;30;47m›[37;40m€[30;47mﬁ·`ÁÓÓ›[37;40m€[30;47mﬁ[0m [1;34;44mﬁ[36;46mﬁ›[34;44m›[0m       [35m≥
+≥       [1;34;44mﬁ›[0m  [1;30;47m›[37;40m€[30;47mﬁ‚‡ÁÁ ›[37;40m€[30;47mﬁ[0m  [1;34;44mﬁ›[0m        [35m≥
+≥       [1;34;44mﬁ›[0m  [1;30;47m›[37;40m€[30;47mﬁÔúÔ‰‰›[37;40m€[30;47mﬁ[0m  [1;34;44mﬁ›[0m        [35m≥
+≥       [1;34;44mﬁ›[0m  [1;30;47m›[37;40m€[30;47mﬁıÙ¯Î ›[37;40m€[30;47mﬁ[0m  [1;34;44mﬁ›[0m        [35m≥
+≥      [1;34;44mﬁ[36;46mﬁ›[34;44m›[0m [1;30mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ [34;44mﬁ[36;46mﬁ›[34;44m›[0m       [35m≥
+≥     [1;30m∞±≤€[47m≤±∞∞[0m€€€€€€€€[1;30;47m∞±≤€[40m≤±∞      [0;35m≥
+[1m√[37mø  [30m∞±≤€[0;30;47m≤±∞[37;40m€€€€€€€€€€€[47m  [1;30m∞±≤€[40m≤±∞   [37m⁄[35m¥
+¿¡[0;35mƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ[1m¡Ÿ
+},{
+!|1K|*|1b010102020002000000WODCLR|w0000270O12|1I000000010mguild|#|#|#
+} T 
+
+
+WARRIR {[0m[2J €€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+ €                                   €
+ €          [34múãvâ [1;32mH‡Ád                [0m€
+ €         [36mDãâ [35mV‡úãÑÔ‚               [37m€
+ €                                   €
+ €      [1m˛˛›˛˛˛˛˛>  [0;31m<˛˛˛˛˛›˛˛         [37m€
+ €                                   €
+ €    [1;30m€€€€€           €€€€€          [0m€
+ €    [1;30m€€€              €€€           [0m€
+ €    [1;30m€€€              €€€           [0m€
+ €    [1;30m€€€              €€€           [0m€
+ €    [1;30m€€€€€           €€€€€          [0m€
+ €€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+} T 
+
+
+TAVMENU1 {[1;48H[0m[1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+[2;48H[1;41m∫    [40mCommands List[0;41m        [1m∫[0m
+[3;48H[1;41m∫                         ∫[0m
+[4;48H[1m∫ [32m[[33mE[32m][33mat Food              [37m∫
+[5;48H∫ [32m[[33mD[32m][33mrink                 [37m∫
+[6;48H∫ [32m[[33mP[32m][33marty at the Bar      [37m∫
+[7;48H∫ [32m[[33mC[32m][33masino                [37m∫
+[8;48H∫ [32m[[33mX[32m][33mit                   [37m∫
+[9;48H[41m∫ [33m8 & 2 to Move Selection [37m∫[0m
+[10;48H[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+},{
+!|1K
+!|10000((*Tavern Menu::E@Order Food,D@Order Drink,P@Party at Bar,C@Casino,X@L\
+eave Tavern))
+!|#|#|#
+} T 
+
+
+FUDMNU {[1;48H[0m[1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+[2;48H[1;41m∫    [40mCommands List[0;41m        [1m∫[0m
+[3;48H[1;41m∫                         ∫[0m
+[4;48H[1m∫ [32m[[33mA[32m][33m Bread          1pp  [37m∫
+[5;48H∫ [32m[[33mB[32m][33m Toast          7pp  [37m∫
+[6;48H∫ [32m[[33mC[32m][33m Spam          10pp  [37m∫
+[7;48H∫ [32m[[33mD[32m][33m Spam & Eggs   15pp  [37m∫
+[8;48H∫ [32m[[33mE[32m][33m Chef Surprise 20pp  [37m∫
+[9;48H∫ [32m[[33mF[32m][33m Lou's Stew    25pp  [37m∫
+[10;48H∫ [32m[[33mG[32m][33m The Feast     50pp  [37m∫
+[11;48H∫ [32m[[33mN[32m][33mothing thanks        [37m∫
+[12;48H[41m∫ [33m8 & 2 to Move Selection [37m∫[0m
+[13;48H[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+},{
+!|10000((*Order Food::A@ 1pp Bread,B@ 7pp Toast,C@10pp Spam,D@15pp Spam & Egg\
+s,E@20pp Chef's Surprise,F@25pp Lou's Stew,G@50pp The Feast,N@Nothing Thanks))
+!|#|#|#
+} T 
+
+
+DRKMNU {[1;48H[0m[1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+[2;48H[1;41m∫    [40mCommands List[0;41m        [1m∫[0m
+[3;48H[1;41m∫                         ∫[0m
+[4;48H[1m∫ [32m[[33mA[32m][33m Water          1pp  [37m∫
+[5;48H∫ [32m[[33mB[32m][33m Ice Ale        10pp [37m∫
+[6;48H∫ [32m[[33mC[32m][33m Beer           15pp [37m∫
+[7;48H∫ [32m[[33mD[32m][33m Plonk          25pp [37m∫
+[8;48H∫ [32m[[33mE[32m][33m Wine           40pp [37m∫
+[9;48H∫ [32m[[33mF[32m][33m Dwarf Spirits 100pp [37m∫
+[10;48H∫ [32m[[33mG[32m][33m Black Sludge  150pp [37m∫
+[11;48H∫ [32m[[33mN[32m][33mothing thanks        [37m∫
+[12;48H[41m∫ [33m8 & 2 to Move Selection [37m∫[0m
+[13;48H[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+},{
+!|1K
+!|10000((*Drink List::A@  1pp Water,B@ 10pp Ice Ale,C@ 15pp Beer,D@ 25pp Plon\
+k,E@ 40pp Wine,F@100pp Dwarf Spirits,G@150pp Black Sludge,N@Nothing Thanks))
+!|#|#|#
+} T 
+
+
+NOCASI {[16;1H Sorry, the casino is closed} T 
+
+
+OFFPTY {[16;1H Off to the party you go} T 
+
+
+MMMMM {[16;1H Mmmm, that hits the spot} T 
+
+
+NUFMN {[16;1H hmph, doesn't seem like you have the cash!} T 
+
+
+GLUG {[16;1H glug,glug!} T 
+
+
+INNMENU1 {[1;48H[0m[1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+[2;48H[1;41m∫    [40mCommands List[0;41m        [1m∫[0m
+[3;48H[1;41m∫                         ∫[0m
+[4;48H[1m∫ [32m[[33mB[32m][33med                   [37m∫
+[5;48H∫ [32m[[33mQ[32m][33muest                 [37m∫
+[6;48H∫ [32m[[33mR[32m][33mumours               [37m∫
+[7;48H∫ [32m[[33mL[32m][33meave                 [37m∫
+[8;48H[41m∫ [33m8 & 2 to Move Selection [37m∫[0m
+[9;48H[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+},{
+!|1K|w0000270O12|1M00AG16HK1K0000000b|1M01AG1KHK1Y0000000q|1M02AG1YHK2C0000000r
+!|1M03AG2CHK2Q0000000l|#|#|#
+[0m                                               [1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+                                               [1;41m∫    [40mCommands List[0;41m        [1m∫[0m
+                                               [1;41m∫ [33mCLICK on your Selection [37m∫[0m
+                                               [1m∫ [32m[[33mB[32m][33med                   [37m∫
+                                               ∫ [32m[[33mQ[32m][33muest                 [37m∫
+                                               ∫ [32m[[33mR[32m][33mumours               [37m∫
+                                               ∫ [32m[[33mL[32m][33meave                 [37m∫
+                                               [41m∫ [33m8 & 2 to Move Selection [37m∫[0m
+                                               [1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+} T 
+
+
+WPNMENU {[1;48H[0m[1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+[2;48H[1;41m∫    [40mCommands List[0;41m        [1m∫[0m
+[3;48H[1;41m∫                         ∫[0m
+[4;48H[1m∫ [33mBuy [32m[[33mA[32m][33mrmor             [37m∫
+[5;48H∫ [33mBuy [32m[[33mW[32m][33meapon            [37m∫
+[6;48H∫ [33mBuy [32m[[33mP[32m][33mrojectiles       [37m∫
+[7;48H∫ [32m[[33mS[32m][33mell Weapon/Armor     [37m∫
+[8;48H∫ [32m[[33mL[32m][33meave                 [37m∫
+[9;48H[41m∫ [33m8 & 2 to Move Selection [37m∫[0m
+[10;48H[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+},{
+!|1K
+!|10000((*Weapon/Armor Shop::A@Buy Armor,W@Buy Weapon,P@Buy Projectile,S@Sell\
+ Weapon/Armor,L@Leave Shop))
+!|#|#|#
+} T 
+
+
+PRJMENU {[1;48H[0m[1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+[2;48H[1;41m∫    [40mProjectiles  [0;41m        [1m∫[0m
+[3;48H[1;41m∫                         ∫[0m
+[4;48H[1m∫ [33mBuy [32m[[33mA[32m][33mrrows            [37m∫
+[5;48H∫ [33mBuy [32m[[33mD[32m][33marts             [37m∫
+[6;48H∫ [33mBuy [32m[[33mR[32m][33mocks             [37m∫
+[7;48H∫ [32m[[33mN[32m][33mothing               [37m∫
+[8;48H[41m∫ [33m8 & 2 to Move Selection [37m∫[0m
+[9;48H[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+},{
+!|1K
+!|10000((*Projectile Menu::A@Buy Arrows,D@Buy Darts,R@Buy Rocks,N@Nothing Tha\
+nks))
+!|#|#|#
+} T 
+
+
+TGKPRJ {[16;1H[1;37mThanks for the business...} T 
+
+
+HWMPRJ {[16;1H[1;37mHow many %s at %upp each: } T 
+
+
+PRJMNY {[16;1H[1;37mYeah, as if you have the money...} T 
+
+
+TMYPRJ {[16;1H[1;37mYou have plenty of those already} T 
+
+
+BEDC1 {[1;37mA room will cost you } T 
+
+
+BEDC2 {[0;1;32mDo you still want the room ? } T 
+
+
+ZBED {[1;37mWelcome...I'll show to your room.
+  Off you go for a snooze...zzzzz} T 
+
+
+INNDBT {[1;37mListen deadbeat, if you don't have the cash, go away...} T 
+
+
+LCHUMP {[1;37mListen chump, I don't have time to chat...} T 
+
+
+WAKEUP {[1;37mYou wake up feeling better than you've felt in days...} T 
+
+
+PIKWOC {[1;48H[0m[1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+[2;48H[1;41m∫    [40mPick Spell Class[0;41m     [1m∫[0m
+[3;48H[1;41m∫                         ∫[0m
+[4;48H[1m∫ [32m[[33mW[32m][33mizard Spells         [37m∫
+[5;48H∫ [32m[[33mC[32m][33mleric Spells         [37m∫
+[6;48H∫ [32m[[33mX[32m][33mit                   [37m∫
+[7;48H[41m∫ [33m8 & 2 to Move Selection [37m∫[0m
+[8;48H[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+},{
+!|1K|10000((*Pick Spell Class::W@Wizard,C@Cleric,X@Abort))|#|#|#
+} T 
+
+
+WIZM1 {[1;48H[0m[1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+[2;48H[1;41m∫    [40mCommands List[0;41m        [1m∫[0m
+[3;48H[1;41m∫                         ∫[0m
+[4;48H[1m∫ [32m[[33mL[32m][33mearn Spells          [37m∫
+[5;48H∫ [32m[[33mH[32m][33mealing               [37m∫
+[6;48H∫ [32m[[33mI[32m][33mdentify Artifact     [37m∫
+[7;48H∫ [32m[[33mS[32m][33mpecial Items         [37m∫
+[8;48H∫ [32m[[33mX[32m][33mit                   [37m∫
+[9;48H[41m∫ [33m8 & 2 to Move Selection [37m∫[0m
+[10;48H[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+},{
+!|1K
+!|10000((*Guild Options::L@Learn Spells,H@Healing,I@Identify Artifact,S@Speci\
+al Items,X@Leave Guild))
+!|#|#|#
+} T 
+
+
+WIZM2 {[1;48H[0m[1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+[2;48H[1;41m∫    [40mSpecial Items[0;41m        [1m∫[0m
+[3;48H[1;41m∫                         ∫[0m
+[4;48H[1m∫ [32m[[33mS[32m][33mense of Direction    [37m∫
+[5;48H∫ [32m[[33mK[32m][33mnowledge of Location [37m∫
+[6;48H∫ [32m[[33mX[32m][33mit                   [37m∫
+[7;48H[41m∫ [33m8 & 2 to Move Selection [37m∫[0m
+[8;48H[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+},{
+!|1K
+!|10000((*Special Items::S@Sense of Direction,K@Knowledge of Location,X@Nothi\
+ng Thanks))
+!|#|#|#
+} T 
+
+
+WIZOP1 {[0;1;36mYou may [32mlearn spells, [36mbuy healing or [32midentify artifacts...} T 
+
+
+PIKSPEL {[1;48H[0m[1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+[2;48H[1;41m∫    [40mPick A Spell [0;41m        [1m∫[0m
+[3;48H[1;41m∫                         ∫[0m} T 
+
+
+PKSPX {[0;1;41m∫ [33m%c Exit                  [37m∫} T 
+
+
+PKSPXL {[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m} T 
+
+
+ALVLH {[1;48H[0m[1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+[2;48H[1;41m∫    [40mPick Power Level[0;41m     [1m∫[0m
+[3;48H[1;41m∫                         ∫[0m} T 
+
+
+ALVLL {[0m[1;41m∫[0m [32m[[33m%c[32m][33mLevel %c              [37m∫} T 
+
+
+ALVLX {[0;1;41m∫ [32m[[33m%c[32m] Exit                [37m∫} T 
+
+
+ALVLB {[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m} T 
+
+
+CLERM1 {[1;48H[0m[1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+[2;48H[1;41m∫    [40mCommands List[0;41m        [1m∫[0m
+[3;48H[1;41m∫                         ∫[0m
+[4;48H[1m∫ [32m[[33mP[32m][33motions               [37m∫
+[5;48H∫ [32m[[33mH[32m][33mealing               [37m∫
+[6;48H∫ [32m[[33mR[32m][33memove Curses         [37m∫
+[7;48H∫ [32m[[33mL[32m][33mearn Spells          [37m∫
+[8;48H∫ [32m[[33mX[32m][33mit                   [37m∫
+[9;48H[41m∫ [33m8 & 2 to Move Selection [37m∫[0m
+[10;48H[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+},{
+!|1K
+!|10000((*Cleric's Guild::P@Potions,H@Healing,R@Remove Curse,L@Learn Spells,X\
+@Leave Guild))
+!|#|#|#
+} T 
+
+
+SSEL {[1;41H[0;1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+[2;41H[1;41m∫           [40mSelection Menu[0;41m           [1m∫[0m
+[3;41H[1;41m∫                                    ∫[0m
+[4;41H[1;41m∫[36;44mA[37;41m [40m                                  [41m∫[0m
+[5;41H[1;41m∫[36;44mB[37;41m [40m                                  [41m∫[0m
+[6;41H[1;41m∫[36;44mC[37;41m [40m                                  [41m∫[0m
+[7;41H[1;41m∫[36;44mD[37;41m [40m                                  [41m∫[0m
+[8;41H[1;41m∫[36;44mE[37;41m [40m                                  [41m∫[0m
+[9;41H[1;41m∫[36;44mF[37;41m [0m                                  [1;41m∫[0m
+[10;41H[1;41m∫[36;44mG[37;41m [0m                                  [1;41m∫[0m
+[11;41H[1;41m∫[36;44mH[37;41m [0m                                  [1;41m∫[0m
+[12;41H[1;41m∫[36;44mI[37;41m [0m                                  [1;41m∫[0m
+[13;41H[1;41m∫[36;44mJ[37;41m [0m                                  [1;41m∫[0m
+[14;41H[1;41m∫[36;44mK[37;41m [0m                                  [1;41m∫[0m
+[15;41H[1;41m∫[36;44mL[37;41m [0m                                  [1;41m∫[0m
+[16;41H[1;41m∫[36;44mM[37;41m [0m                                  [1;41m∫[0m
+[17;41H[1;41m∫[36;44mN[37;41m [0m                                  [1;41m∫[0m
+[18;41H[1;41m∫[36;44mO[37;41m [0m                                  [1;41m∫[0m
+[19;41H[1;41m∫[36;44mP[37;41m [40m Nothing Thanks...                [41m∫[0m
+[20;41H[1;41m∫ [33m    8 & 2 to Move Selection        [37m∫[0m
+[21;41H[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+} T 
+
+
+CLEROP1 {[1;36mYou may [1;32mbuy potions, [1;36mhealing or [1;32mlisten to rumours...} T 
+
+
+HLCOST {[1;36mIf you want to be healed it will cost you [1;37m2[1;36mpp/HP.
+Do you still want to be healed ? },{
+!|1K|10000((*2pp/HP to heal, Still want it?::Y@Yes,N@No))|#|#|#
+} T 
+
+
+NODOUGH {[0;1;31mNo potions for deadbeats... } T 
+
+
+FEELOK {[0;1;36mYou start feeling better... } T 
+
+
+MONHND {[0mPlatinum pieces on hand:[1m %spp} T 
+
+
+ENTSEL {[0;1;35;44mWhich do you want to purchase ? [[37mEnter on selection[35m][0m } T 
+
+
+UWANT {[0;1;33mYou want [0m%s [1;33mwhich costs [0m%s[1;33mpp },{
+!|1K
+!|10000((*You want %s that costs %spp::Y@Yes,N@No))
+!|#|#|#
+} T 
+
+
+SELLIT {[0;1;33mSell [0m%s [1;33mfor [0m%s[1;33mpp ? },{
+!|1K
+!|10000((*Sell %s for %spp::Y@Yes,N@No))
+!|#|#|#
+} T 
+
+
+SOLD {[0;1;31m%s [33mSold!} T 
+
+
+ISRITE {[0;1;33mIs this correct ? [0m[[1mY/N[0m] -=> } T 
+
+
+NOROOM {[0;1;33mNo room in your pack} T 
+
+
+NOMORE {[0;1;33mThere aren't any more objects now} T 
+
+
+OBJGON {[0;1;33mSomeone else has just beaten you to it.} T 
+
+
+PIKUP {[0;1;33mYou pick up the %s } T 
+
+
+NODROP {[0;1;33mNothing to drop!} T 
+
+
+INVLIN {[0m[2J[1;33m*[37mNote[33m* [0mYou can carry a maximum of 20 items.
+Inventory colours: [32mWeapon [31mArmour [36mPotion [35mRing [34mStone [33mAmulet [37mScroll
+},{
+!|w0000270O12|#|#|#
+[0m[2J[1;33m*[37mNote[33m* [0mYou can carry a maximum of 20 items.
+Inventory colours: [32mWeapon [31mArmour [36mPotion [35mRing [34mStone [33mAmulet [37mScroll
+} T 
+
+
+COMBAT {[0m[2J                    [34m€  [32mDi[1mre[37mct[32mio[0;32mns  [34m€ ∞±≤€[31;44m∞∞∞±±±≤≤≤[34;41m∞∞∞          ∞∞∞[31;44m≤≤≤±±±∞∞∞[34;40m€≤±∞
+                    ≤    [1;33m7 8 9     [0;34m≤ ±                                        ±
+                    ±    [1;33m4 [31m* [33m6     [0;34m± ≤                                        ≤
+                    ∞    [1;33m1 2 3     [0;34m∞ €                                        €
+∞±≤€≤±∞±≤€≤±∞±≤€≤±∞±≤€≤±∞±≤€≤±∞±≤€≤± [31;44m∞[37;40m                                        [31;44m∞[37;40m
+                                     [31;44m±[37;40m                                        [31;44m±[37;40m
+   [[1;33mA[0m][1;31mttack          [0m[[1;33mU[0m][1;31mse Item      [0;31;44m±[37;40m                                        [31;44m±[37;40m
+   [[1;33mR[0m][1;31mange Weapon    [0m[[1;33mS[0m][1;31mearch        [0;31;44m∞[37;40m                                        [31;44m∞[37;40m
+   [[1;33mC[0m][1;31mast Spell      [0m[[1;33mP[0m][1;31mass Turn     [0;34m€                                        €
+   [37m[[1;33mE[0m][1;31mquip Item                      [0;34m≤                                        ≤
+                                     ±                                        ±
+                                     ∞±≤€[31;44m∞∞∞±±±≤≤≤[34;41m∞∞∞          ∞∞∞[31;44m≤≤≤±±±∞∞∞[34;40m€≤±∞
+
+∞±≤€≤±∞∞±≤€≤±∞∞±≤€≤±∞∞±≤€≤±±≤[44m [1;33mCOMBAT MESSAGES  [0;34m≤±∞∞±≤€≤±∞∞±≤€≤±∞∞±≤€≤±∞∞±≤€≤±∞±
+},{
+!|1K|*|1I004X00010COMBAT2|1I000000010COMBAT|w04012D0P01|1M000I863D8O1000000e
+!|1M013J866E8O1000000c|1M026M869H8P1000000r|1M030I8U3D9C1000000u
+!|1M043J8U6E9C1000000s|1M056M8U9H9C1000000p|1M06F27HFQ8010000007
+!|1M07FU7HGE8510000008|1M08GI7HH68010000009|1M09F284FQ8N10000004
+!|1M0AGI85H68O10000006|1M0BF28SFQ9B10000001|1M0CFU8NGE9B10000002
+!|1M0DGI8SH69B10000003|1M0EBC7HC0801000000A((Attack L/U::7@YES, @NO))
+!|1M0FC47HCO851000000A((Attack Up::8@YES, NO))
+!|1M0GCS7HDG801000000A((Attack R/U::9@YES, @NO))
+!|1M0HBC84C08N1000000A((Attack Left::4@YES, @NO))
+!|1M0ICS85DG8O1000000A((Attack Right::6@YES, @NO))
+!|1M0JBC8SC09B1000000A((Attack L/D::1@YES, @NO))
+!|1M0KC48NCO9B1000000A((Attack Down::2@YES, @NO))
+!|1M0LCS8SDG9B1000000A((Attack R/D::3@YES, @NO))|#|#|#
+[0m[2J                    [34m€  [32mDi[1mre[37mct[32mio[0;32mns  [34m€ ∞±≤€[31;44m∞∞∞±±±≤≤≤[34;41m∞∞∞          ∞∞∞[31;44m≤≤≤±±±∞∞∞[34;40m€≤±∞
+                    ≤    [1;33m7 8 9     [0;34m≤ ±                                        ±
+                    ±    [1;33m4 [31m* [33m6     [0;34m± ≤                                        ≤
+                    ∞    [1;33m1 2 3     [0;34m∞ €                                        €
+∞±≤€≤±∞±≤€≤±∞±≤€≤±∞±≤€≤±∞±≤€≤±∞±≤€≤± [31;44m∞[37;40m                                        [31;44m∞[37;40m
+                                     [31;44m±[37;40m                                        [31;44m±[37;40m
+   [[1;33mA[0m][1;31mttack          [0m[[1;33mU[0m][1;31mse Item      [0;31;44m±[37;40m                                        [31;44m±[37;40m
+   [[1;33mR[0m][1;31mange Weapon    [0m[[1;33mS[0m][1;31mearch        [0;31;44m∞[37;40m                                        [31;44m∞[37;40m
+   [[1;33mC[0m][1;31mast Spell      [0m[[1;33mP[0m][1;31mass Turn     [0;34m€                                        €
+   [37m[[1;33mE[0m][1;31mquip Item                      [0;34m≤                                        ≤
+                                     ±                                        ±
+                                     ∞±≤€[31;44m∞∞∞±±±≤≤≤[34;41m∞∞∞          ∞∞∞[31;44m≤≤≤±±±∞∞∞[34;40m€≤±∞
+
+∞±≤€≤±∞∞±≤€≤±∞∞±≤€≤±∞∞±≤€≤±±≤[44m [1;33mCOMBAT MESSAGES  [0;34m≤±∞∞±≤€≤±∞∞±≤€≤±∞∞±≤€≤±∞∞±≤€≤±∞±
+} T 
+
+
+COMRST {[1;38H[0;34m∞±≤€[31;44m∞∞∞±±±≤≤≤[34;41m∞∞∞          ∞∞∞[31;44m≤≤≤±±±∞∞∞[34;40m€≤±∞
+[2;38H±                                        ±
+[3;38H≤                                        ≤
+[4;38H€                                        €
+[5;38H[31;44m∞[37;40m                                        [31;44m∞[37;40m
+[6;38H[31;44m±[37;40m                                        [31;44m±[37;40m
+[7;38H[31;44m±[37;40m                                        [31;44m±[37;40m
+[8;38H[31;44m∞[37;40m                                        [31;44m∞[37;40m
+[9;38H[34m€                                        €
+[10;38H≤                                        ≤
+[11;38H±                                        ±
+[12;38H∞±≤€[31;44m∞∞∞±±±≤≤≤[34;41m∞∞∞          ∞∞∞[31;44m≤≤≤±±±∞∞∞[34;40m€≤±∞
+[13;38H
+[14;38H[1;44;33mMESSAGES  [0;34m≤±∞∞±≤€≤±∞∞±≤€≤±∞∞±≤€≤±∞∞±≤€≤±∞±
+},{
+!|w04012D0P01|#|#|#
+[1;38H[0;34m∞±≤€[31;44m∞∞∞±±±≤≤≤[34;41m∞∞∞          ∞∞∞[31;44m≤≤≤±±±∞∞∞[34;40m€≤±∞
+[2;38H±                                        ±
+[3;38H≤                                        ≤
+[4;38H€                                        €
+[5;38H[31;44m∞[37;40m                                        [31;44m∞[37;40m
+[6;38H[31;44m±[37;40m                                        [31;44m±[37;40m
+[7;38H[31;44m±[37;40m                                        [31;44m±[37;40m
+[8;38H[31;44m∞[37;40m                                        [31;44m∞[37;40m
+[9;38H[34m€                                        €
+[10;38H≤                                        ≤
+[11;38H±                                        ±
+[12;38H∞±≤€[31;44m∞∞∞±±±≤≤≤[34;41m∞∞∞          ∞∞∞[31;44m≤≤≤±±±∞∞∞[34;40m€≤±∞
+[13;38H
+[14;38H[1;44;33mMESSAGES  [0;34m≤±∞∞±≤€≤±∞∞±≤€≤±∞∞±≤€≤±∞∞±≤€≤±∞±
+} T 
+
+
+ITSEL {[1;50H[0;1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+[2;50H[1;41m∫     [40mSelection Menu[41m     ∫[0m
+[3;50H[1;41m∫ [33m8 & 2 to Move Selection[37m∫[0m
+} T 
+
+
+NPAGE {[14;50H[0;1;41m∫[33;40m K [37mNext Page            [41m∫[0m
+[15;50H[1;41m∫[33;40m L [37mAbort Menu           [41m∫[0m
+[16;50H[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+} T 
+
+
+NPAGL {[0;1;41m∫[33;40m S[37;41m [40mNext Page            [41m∫} T 
+
+
+PPAGL {[0;1;41m∫[33;40m T[37;41m [40mPrevious Page        [41m∫} T 
+
+
+XPAGL {[0;1;41m∫[33;40m X[37;41m [40mExit                 [41m∫} T 
+
+
+DROPIT {[0;1;36mDrop [5;33m%s [0;1;36m? },{
+!|1K
+!|10000((*Drop %s?::Y@Yah toss it\!,N@No might be handy..))
+!|#|#|#
+} T 
+
+
+DROPPED {[0;1;32m%s [36mDropped. } T 
+
+
+PPAGE {[%d;50H[0;1;41m∫[33;40m K [37mPrevious Page        [41m∫[0m
+[%d;50H[1;41m∫[33;40m L [37mAbort Menu           [41m∫[0m
+[%d;50H[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+} T 
+
+
+ITSEL1 {[0;1;41m∫[33;40m %c[37;41m [40mAbort Menu           [41m∫[0m
+} T 
+
+
+ITSEL2 {[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+} T 
+
+
+UITSEL1 {[0;1;41m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[0m
+} T 
+
+
+UITSEL2 {[1;41m∫     [40mSelection Menu[41m     ∫[0m
+} T 
+
+
+UITSEL3 {[1;41m∫                        ∫[0m
+} T 
+
+
+UITSEL4 {[1;41m∫ [33m8 & 2 to Move Selection[37m∫[0m
+} T 
+
+
+UITSEL5 {[1;41m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[0m
+} T 
+
+
+UINUTHN {[0;1;41m∫[36;44m%c[37;41m [40m Nothing...           [41m∫[0m
+} T 
+
+
+USEAR {[0m [1;32m\ [31m| [32m/
+ [31m<-[33m*[31m->
+ [32m/ [31m| [32m\ } T 
+
+
+UWON {[0m[2J[34m∞±≤[1;33;44m You WON the battle!! [0;34m≤±∞
+} T 
+
+
+ULOST {[0m[2J[31m∞±≤€[1;37;41mYou lost the battle!![0;31m€≤±∞
+} T 
+
+
+UPWON {[0m[2J[34m∞±≤[1;33;44m Your party WON the battle!![0;34m€≤±∞
+} T 
+
+
+UPLOST {[0m[2J[31m∞±≤[1;37;41m Your party lost the battle! [0;31m≤±∞
+} T 
+
+
+Level99 {}
+
+
+EDITOBJE {[0;1;36mObject Editor :      Object Name :  [[37m????????????????????[36m]
+
+Weight      : [[37m$$$[36m]                     Spot worn   : >[37m?????????[36m<
+Item Type   : >[37m??????????[36m<              Object Class: >[37m??[36m<  [33m(A-H)
+[36mStrength    : [[37m$$$[36m]                     Dexterity   : [[37m$$$[36m]
+Intelligence: [[37m$$$[36m]                     Wisdom      : [[37m$$$[36m]
+Constitution: [[37m$$$[36m]                     Charisma    : [[37m$$$[36m]
+Luck        : [[37m$$$[36m]                     Armor Points: [[37m$$$[36m]
+Max Damage  : [[37m$$$[36m]
+Range of Weapon        : [[37m$$$[36m]   [33m(Only used for weapons)
+[36mRange Object needed    : >[37m???????????????[36m< [33m(If weapon has range, must set this)
+[36mSpecial Power (SP)     : >[37m???????????????[36m< [33m(Item must be used/worn to work)
+[36mHow to use this item   : >[37m???????[36m< [33m(Does it have to be Worn, battle, use...)
+[36mChance SP will Work    : [[37m$$$[36m%]  [33m([37m100% [33m= All the time)
+[36mTimes SP can be used   : [[37m$$$[36m]   [33m([37m999 [33m= Unlimited. Can be used 998 times MAX)
+[36mMax SP Heal/DMG/AC +   : [[37m$$$[36m]   [33m(AC works as [37m- [33mif CURSED is selected)
+
+[36mGet From : >[37m???????????[36m< [33m(Only use - [37mMonster [33mor [37mShop[33m)  Do not Use [37mPersonal.
+
+[36mCost        : [[37m$$$$$$$$$$[36m]              Exit : >[37m????[36m< [33m([37mQuit [33mor [37mSave[33m)
+
+[32m([37mSPACEBAR [32mtoggles [37m>< [32mfields.  Quick commands: [37m^G[32m- Save [37m^O[32m- Abort) } T 
+
+
+EDITSPEL {[0;1;35mSpell Editor :     Spell Name  : [[33m????????????????????[35m]
+
+Spell Level : [[33m$$[35m] (The level needed to learn this spell. 15 Levels)
+
+Spell Element Type        : >[33m???????[35m<
+Spell Casting Class       : >[33m???????[35m< ([37mMage [35mor [37mPriest[35m)
+Magic Points used to cast : [[33m$$$[35m]
+Range of Spell            : [[33m$$$[35m] (Fighting grid is 15x15)
+Extra Range of Spell      : [[33m$$$[35m] (X-range per lvl of person casting)
+Spell Target              : >[33m????????????[35m<
+Spell Type                : >[33m???????????????[35m<
+Spell duration in turns   : [[33m$$$[35m] (How long spell will last)
+Max points effect of spell: [[33m$$$[35m] (DMG/HEAL/AC/AGE etc...)
+Spell x-points            : [[33m$$$[35m] (x-pts done per lvl of person casting)
+
+Spell text : [[33m????????????????????????????????????????????????????????????[35m]
+             [36m(ie: A ball of flame leaps into the air) (Attack spell)
+             (ie: An Aura of light surrounds your group.) (Group heal)
+
+[35mExit : >[33m????[35m< ([37mQuit [35mor [37mSave[35m) } T 
+
+
+EDITRACE {[0;1;32mRace Editor :      Race Name   : [[31m????????????????????[32m]
+
+Casting Ability : [[31m$$$[32m%]
+
+Attributes: [37m+/- [32m=  Bonus for this class.
+            [37mMAX [32m=  Max amount class can get.
+
+               [37m+/-   MAX         [32mMagic Resistance : [[31m$$$[32m%]
+          STR [[31m$$$[32m] [[31m$$$[32m]
+          DEX [[31m$$$[32m] [[31m$$$[32m]        Element Resistance :   EARTH  [[31m$$$[32m%]
+          INT [[31m$$$[32m] [[31m$$$[32m]                               FIRE   [[31m$$$[32m%]
+          WIS [[31m$$$[32m] [[31m$$$[32m]                               WATER  [[31m$$$[32m%]
+          CON [[31m$$$[32m] [[31m$$$[32m]                               AIR    [[31m$$$[32m%]
+          CHR [[31m$$$[32m] [[31m$$$[32m]
+          LCK [[31m$$$[32m] [[31m$$$[32m]
+          HP  [[31m$$$[32m]
+
+
+  Finished >[31m????[32m< ([31mQuit [32m/ [31mSave [32m/ You can also use [31m^G [32mto save at anytime) } T 
+
+
+EDITCLAS {[0;1;35mClass Editor :         Class Name  : [[33m????????????????????[35m]
+
+Hit Points per       [36mLevel    [37mMage           Priest         [33mExp Needed
+[35mLevel : [[33m$$[35m]           [37m1   [[32m#########[37m]     [[32m#########[37m]     [33m[[36m$$$$$$$$$$[33m]
+[31mMagic Points per       [37m2   [[32m#########[37m]     [[32m#########[37m]     [33m[[36m$$$$$$$$$$[33m]
+[31mLevel : [[33m$$[31m]           [37m3   [[32m#########[37m]     [[32m#########[37m]     [33m[[36m$$$$$$$$$$[33m]
+[35mObject Type Limits     [37m4   [[32m#########[37m]     [[32m#########[37m]     [33m[[36m$$$$$$$$$$[33m]
+                       [37m5   [[32m#########[37m]     [[32m#########[37m]     [33m[[36m$$$$$$$$$$[33m]
+    [36mA - >[33m???[36m<          [37m6   [[32m#########[37m]     [[32m#########[37m]     [33m[[36m$$$$$$$$$$[33m]
+    [36mB - >[33m???[36m<          [37m7   [[32m#########[37m]     [[32m#########[37m]     [33m[[36m$$$$$$$$$$[33m]
+    [36mC - >[33m???[36m<          [37m8   [[32m#########[37m]     [[32m#########[37m]     [33m[[36m$$$$$$$$$$[33m]
+    [36mD - >[33m???[36m<          [37m9   [[32m#########[37m]     [[32m#########[37m]     [33m[[36m$$$$$$$$$$[33m]
+    [36mE - >[33m???[36m<         [37m10   [[32m#########[37m]     [[32m#########[37m]     [33m[[36m$$$$$$$$$$[33m]
+    [36mF - >[33m???[36m<         [37m11   [[32m#########[37m]     [[32m#########[37m]     [33m[[36m$$$$$$$$$$[33m]
+    [36mG - >[33m???[36m<         [37m12   [[32m#########[37m]     [[32m#########[37m]     [33m[[36m$$$$$$$$$$[33m]
+    [36mH - >[33m???[36m<         [37m13   [[32m#########[37m]     [[32m#########[37m]     [33m[[36m$$$$$$$$$$[33m]
+                      [37m14   [[32m#########[37m]     [[32m#########[37m]     [33m[[36m$$$$$$$$$$[33m]
+                      [37m15   [[32m#########[37m]     [[32m#########[37m]     [33m[[36m$$$$$$$$$$[33m]
+                        [37m([31mSpells gained at each level[37m)   [33m([35mNext Level Raise[33m)
+                         [37m([31mClasses max at 100 spells[37m)    [33m([35mMAX = 2000000000[33m)
+             [37m([31mYou can't have more than 50 Mage, and 50 Priest each[37m)
+
+[36mFinished >[33m????[36m< ([33mQuit [36m/ [33mSave [36m/ You can also use [33m^G [36mto save at anytime) } T 
+
+
+EDITMONS {[0;34m∞±≤€[1;37;44mMonster Editor[0;34m€≤±∞     [33m∞±≤€[1;37;43mName[0;33m€≤±∞ [34m∞±≤€[1;33;44m?????????????????????????????[0;34m€≤±∞
+
+[1;36mLevel             : [[33m$$$[36m] ([37m1[36m-[37m15[36m)        Armor Rating      : [[33m$$$[36m] ([37m1[36m-[37m250[36m)
+Moves per turn    : [[33m$$$[36m] ([37m1[36m-[37m5[36m)         Hit Points        : [[33m$$$[36m] ([37m1[36m-[37m999[36m)
+# of Attacks      : [[33m$$$[36m] ([37m1[36m-[37m5[36m)         Damage per Attack : [[33m$$$[36m] ([37m1[36m-[37m100[36m)
+Special Damage    : >[33m???????????????[36m<   Max # Appearing   : [[33m$$$[36m] ([37m10 Max[36m)
+Attack Message : [[33m??????????????????????????????????????????????????[36m]
+
+Magic Resistance [[33m$$$[36m%]    Element Resistance: EARTH  [[33m$$$[36m%]  AIR    [[33m$$$[36m%]
+                                               WATER  [[33m$$$[36m%]  FIRE   [[33m$$$[36m%]
+X-tra Ranged attack or Special function :
+Type    : >[33m???????????????[36m<  (Who is affected by this function)
+Message : [[33m??????????????????????????????????????????????????[36m]
+Pts     : [[33m$$$[36m] ([37m1[36m-[37m100[36m)  (Depends on Special- Heal/DMG/Armor Pts)
+Range   : [[33m$$$[36m] ([37m1[36m-[37m15[36m)   (If using a range weapon)
+Special : >[33m???????????????[36m<        Chance special happens  : [[33m$$$[36m%]
+
+Treasure Type % :    Weapon  [[33m$$$[36m%]  Armor   [[33m$$$[36m%]  Ring    [[33m$$$[36m%]
+                     Potion  [[33m$$$[36m%]  Stone   [[33m$$$[36m%]  Amulet  [[33m$$$[36m%]
+                     Scroll  [[33m$$$[36m%]
+
+Gold earned [[33m$$$$$[36m] ([37m0[36m-[37m65000 [36meach)   EXP Value [[33m$$$$$[36m] ([37m0[36m-[37m65000 [36meach)
+
+Exit : >[33m????[36m< ([37mQuit [36mor [37mSave[36m) } T 
+
+

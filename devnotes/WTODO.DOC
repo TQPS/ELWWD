@@ -1,0 +1,32 @@
+           Bug Fixes & Things to Implement
+
+fix-Drinking water in tavern makes you drunk
+Can't wear rings (might be dbase problem)
+ (check dragon amulet)
+fix-Duplicate players(usually after combat)
+fix-object healing goes way over player's actual maxhp
+fix-player can equip items that were red-listed in stores
+fix-leave & come back ac not properly initialized
+cleric doesn't heal conditions-pizn & cursed
+  (uncurse charge is 20% of item cost
+   only uncurse items actually equipped)
+drops carrier in combat
+when up level, guild lists rubbish for new spells
+:
+DONE - Add redraw command to CLBAR for line noise problems - ok
+DONE - Add page command for other players in game(leaders only)
+DONE - Add [W]rite on wall (1 LINE LEADER ONLY)
+DONE - Scry upgrade to show x,y,level
+DONE - Add new command for who's online:whole bbs or game only - ok
+DONE - give items/gold to others in Talk but not tavern
+DONE - + key for stats, 2nd+ shows party - ok
+DONE - for combat + toggles life bar to numbers  curr/maxhp
+
+:
+: wish list
+:
+summon spell to bring ele's in combat
+add pet stores for pet npc's
+add monster terrain map
+
+

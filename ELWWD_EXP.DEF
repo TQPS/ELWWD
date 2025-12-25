@@ -1,0 +1,6 @@
+; Filename: ELWWD_EXP.DEF
+LIBRARY ELWWD.DLL
+; *** Visual Studio 2022 EXPORT ALIASES ONLY ***
+; Worlds of Darkness - Copyright (c) 2025 Elwynor Technologies
+EXPORTS
+	_init__elwwd=init__elwwd	@1

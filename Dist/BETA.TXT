@@ -1,0 +1,26 @@
+
+======================
+ Worlds of Darkness
+       v0.62
+ Elwynor Technologies
+======================
+
+This is really alpha, as it is an unfinished game. There are things planned
+for this game that never made it into the game before the original developers
+stopped working on the project. 
+
+The game's features that do work are beta, and they seem to work well.
+There are some known bugs.
+
+We are offering this binary distribution to help the volunteers from
+The Major BBS Restoration Project test and evolve the game. 
+
+Come to the Major BBS discord server:
+ https://discord.gg/Q3sCSPNw
+ 
+And talk in the #elwynor or #worldsofdarkness channel
+
+Thanks! 
+
+Rick Hadsall
+Elwynor Technologies

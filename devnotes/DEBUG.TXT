@@ -1,0 +1,80 @@
+Race Name   : [Hafling             ]      Race #3
+
+Casting Ability : [ 60%]
+
+Attributes: +/- =  Bonus for this class.
+            MAX =  Max amount class can get.
+
+               +/-   MAX         Magic Resistance : [  5%]
+          STR [102] [ 18]
+          DEX [ 60] [  5]        Element Resistance :   EARTH  [102%]
+          INT [ 18] [ 60]                               FIRE   [  5%]
+          WIS [102] [ 18]                               WATER  [ 60%]
+          CON [  5] [102]                               AIR    [ 18%]
+          CHR [ 60] [  5]
+          LCK [102] [ 18]
+          HP  [ 60]
+
+[X] Aborts, [S]elects [N]ext, [P]revious, [Record #] :
+
+Race Name   : [Elf                 ]      Race #2
+
+Casting Ability : [ 85%]
+
+Attributes: +/- =  Bonus for this class.
+            MAX =  Max amount class can get.
+
+               +/-   MAX         Magic Resistance : [ 15%]
+          STR [511] [ 20]
+          DEX [ 85] [ 15]        Element Resistance :   EARTH  [511%]
+          INT [ 20] [ 85]                               FIRE   [ 15%]
+          WIS [511] [ 20]                               WATER  [ 85%]
+          CON [ 15] [511]                               AIR    [ 20%]
+          CHR [ 85] [ 15]
+          LCK [511] [ 20]
+          HP  [ 85]
+
+[X] Aborts, [S]elects [N]ext, [P]revious, [Record #] :
+
+
+Race Editor :      Race Name   : [Hafling             ]
+
+Casting Ability : [ 60%]
+
+Attributes: +/- =  Bonus for this class.
+            MAX =  Max amount class can get.
+
+               +/-   MAX         Magic Resistance : [  5%]
+          STR [102] [ 18]
+          DEX [  0] [ 25]        Element Resistance :   EARTH  [  5%]
+          INT [  0] [ 20]                               FIRE   [  0%]
+          WIS [-25] [ 20]                               WATER  [  0%]
+          CON [255] [ 18]                               AIR    [  0%]
+          CHR [256] [ 20]
+          LCK [  0] [ 25]
+          HP  [  0]
+
+
+  Finished >    < (Quit / Save / You can also use ^G to save at anytime)
+  
+Race Editor :      Race Name   : [Elf                 ]
+
+Casting Ability : [ 85%]
+
+Attributes: +/- =  Bonus for this class.
+            MAX =  Max amount class can get.
+
+               +/-   MAX         Magic Resistance : [ 15%]
+          STR [511] [ 20]
+          DEX [  0] [ 22]        Element Resistance :   EARTH  [  0%]
+          INT [  0] [ 25]                               FIRE   [  0%]
+          WIS [-25] [ 20]                               WATER  [  0%]
+          CON [511] [ 19]                               AIR    [  0%]
+          CHR [  0] [ 22]
+          LCK [  0] [ 20]
+          HP  [  0]
+
+
+  Finished >    < (Quit / Save / You can also use ^G to save at anytime)
+  
+  

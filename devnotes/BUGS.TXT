@@ -1,0 +1,13 @@
+
+Worlds of Darkness:
+
+Still some rendering inconsistency with the character generation classes and class editors. Need to check
+that the values are actually real because anything over 100 (+ or -) seems wrong.
+
+Not sure what the classes do, that screen doesn't have much labeling.
+
+The compass doesn't show the direction - it always has north.  Not sure if that was intentional
+
+There's a potentially serious bug in ELWWDANS.C around line 568. See // RH: BUG comment. wall[][] is CHAR, but it's set to 276.
+This will get changed to 20, since only the lower byte will get written as unsigned char is 0..255. Is that a problem?
+
