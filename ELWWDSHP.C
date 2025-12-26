@@ -210,14 +210,14 @@ VOID arenaproc(VOID)
                     j = 1;
                 zcbr->mcount = (SHORT)j;
                 for (i = 0; i < totmonst; i++)
-                    if (monbase[i].monlvl == k)
+                    if ((int)(unsigned char)monbase[i].monlvl == (int)k)
                         break;
                 if (i < totmonst) {
                     l = i = 0;
                     m = 1;
                     dfaSetBlk(dbmonst);
                     do {
-                        if (monbase[i].monlvl == k) {
+                        if ((int)(unsigned char)monbase[i].monlvl == (int)k) {
                             dfaGetAbs(&zcbr->cmonst[l], monbase[i].monpos, 0);
                             zcbr->mxlife[l] = zcbr->cmonst[l].hp;
                             zcbr->omony[l] = zcbr->mony[l] = 2;

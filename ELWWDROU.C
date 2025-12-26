@@ -3028,13 +3028,16 @@ VOID scopy(CHAR* dest, CHAR* src)
 }
 
 // C to pascal copier
-VOID scopyc(CHAR* dest, CHAR* src)
+VOID
+scopyc(CHAR* dest, CHAR* src)
 {
-    CHAR i;
-    for (i = 0; i < strlen(src); i++) {
+    size_t i, len;
+
+    len = strlen(src);
+    for (i = 0; i < len; i++) {
         dest[i + 1] = src[i];
     }
-    dest[0] = (CHAR)strlen(src);
+    dest[0] = (CHAR)len;
 }
 
 //pascal s to C s

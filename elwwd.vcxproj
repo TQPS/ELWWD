@@ -24,7 +24,7 @@
     <ProjectGuid>{898C7885-240A-4D51-A1EB-0CB262DECFD1}</ProjectGuid>
     <RootNamespace>elwwd</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>elwwd</ProjectName>
+    <ProjectName>ELWWD</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -93,6 +93,9 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <StructMemberAlignment>8Bytes</StructMemberAlignment>
       <AdditionalOptions>/J %(AdditionalOptions)</AdditionalOptions>
+
+      <!-- Suppress C4115: SDK header (locknkey.h) triggers "named type definition in parentheses"; warning is noise. -->
+      <DisableSpecificWarnings>4115;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -115,6 +118,9 @@
       <AdditionalIncludeDirectories>$(SolutionDir)inc;$(SolutionDir)inc\msg\wg32;$(SolutionDir)src\api\gcommlib;$(SolutionDir)src\api\gcommlib\wnt</AdditionalIncludeDirectories>
       <StructMemberAlignment>8Bytes</StructMemberAlignment>
       <AdditionalOptions>/J %(AdditionalOptions)</AdditionalOptions>
+
+      <!-- Suppress C4115: SDK header (locknkey.h) triggers "named type definition in parentheses"; warning is noise. -->
+      <DisableSpecificWarnings>4115;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
