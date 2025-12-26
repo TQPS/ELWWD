@@ -294,57 +294,85 @@ VOID fill3d(VOID)
     fcolor();
 }
 
-VOID insert(CHAR* colr, CHAR* cstr, CHAR pos)
+VOID
+insert(CHAR* colr, CHAR* cstr, CHAR pos)
 {
-    CHAR i, j, tstr[250] = { 0 };
-    if (colr != NULL && cstr != NULL) {
-        tstr[0] = cstr[0] + (CHAR)strlen(colr);
-        if (tstr[0] > 240) {
-            prf("ERROR: INSERT OVERRUN 240!!!\n");
-            outprf(usrnum);
-            return;
-        }
-        /*
-          prf("cstr before\n");
-          for (i=1; i<=cstr[0]; i++) {
-           prf("%u,",cstr[i]);
-          }
-          prf("\n");
-          outprf(usrnum);
-          prf("colr before\n");
-          for (i=0; i<strlen(colr); i++) {
-           prf("%u,",colr[i]);
-          }
-          prf("\n");
-          outprf(usrnum);
-        */
-        for (i = 1; i < pos; i++) {
-            tstr[i] = cstr[i];
-        }
-        j = pos;
-        for (i = 0; i < strlen(colr); i++) {
-            tstr[j] = colr[i];
-            j++;
-        }
-        for (i = pos; i <= cstr[0]; i++) {
-            tstr[j] = cstr[i];
-            j++;
-        }
-        for (i = 0; i <= tstr[0]; i++) {
-            cstr[i] = tstr[i];
-        }
-        /*
-          prf("cstr after\n");
-          for (i=1; i<=cstr[0]; i++) {
-           prf("%u,",cstr[i]);
-          }
-          prf("\n");
-          outprf(usrnum);
-        */
-    } else {
+    INT i, j;
+    size_t colrlen;
+    UCHAR oldlen, newlen;
+    CHAR tstr[250] = { 0 };
+
+    if (!colr || !cstr) {
         prf("insert has detected a null string\n");
         outprf(usrnum);
+        return;
     }
+
+    /* Cache these once (original called strlen(colr) repeatedly) */
+    colrlen = strlen(colr);
+    oldlen = (UCHAR)cstr[0];        /* Pascal-string length byte */
+
+    /* Step 1: compute new length and bounds-check */
+    if ((size_t)oldlen + colrlen > 240) {
+        prf("ERROR: INSERT OVERRUN 240!!!\n");
+        outprf(usrnum);
+        return;
+    }
+    newlen = (UCHAR)((size_t)oldlen + colrlen);
+    tstr[0] = (CHAR)newlen;
+
+    // Likely debug
+    /*
+      prf("cstr before (len=%u)\n", (unsigned)oldlen);
+      for (i=1; i <= (INT)oldlen; i++) {
+       prf("%u,", (unsigned)((UCHAR)cstr[i]));
+      }
+      prf("\n");
+      outprf(usrnum);
+
+      prf("colr before (len=%u)\n", (unsigned)colrlen);
+      for (i=0; i < (INT)colrlen; i++) {
+       prf("%u,", (unsigned)((UCHAR)colr[i]));
+      }
+      prf("\n");
+      outprf(usrnum);
+
+      prf("pos=%u newlen=%u\n", (unsigned)((UCHAR)pos), (unsigned)newlen);
+      outprf(usrnum);
+    */
+
+    /* Step 2: copy head (1..pos-1) */
+    for (i = 1; i < (UCHAR)pos; i++) {
+        tstr[i] = cstr[i];
+    }
+
+    /* Step 3: insert colr at pos */
+    j = (UCHAR)pos;
+    for (i = 0; i < (INT)colrlen; i++) {
+        tstr[j] = colr[i];
+        j++;
+    }
+
+    /* Step 4: copy tail (pos..oldlen) */
+    for (i = (UCHAR)pos; i <= oldlen; i++) {
+        tstr[j] = cstr[i];
+        j++;
+    }
+
+    /* Step 5: copy back (0..newlen) */
+    for (i = 0; i <= newlen; i++) {
+        cstr[i] = tstr[i];
+    }
+
+    // Likely debug
+    /*
+      prf("cstr after (len=%u)\n", (unsigned)newlen);
+      for (i=1; i <= (INT)newlen; i++) {
+       prf("%u,", (unsigned)((UCHAR)cstr[i]));
+      }
+      prf("\n");
+      outprf(usrnum);
+    */
 }
 
 VOID fcolor(VOID)
@@ -565,7 +593,9 @@ VOID draw3d(VOID)
                             if (k == facerow[i] + (i * 2)) {
                                 if (rfacev)
                                     if (i > 1 && doortype == 1)
-                                        wall[k][l + m - 2] = 276;    // RH: BUG: This won't work, CHAR is 0..255! This will only copy lower bits and be 20.  TODO: Find this and figure out what wall[][] should really be
+                                        // TODO: confirm intended door detail glyph (276 was invalid in wall[][] but aligns with UDOOR2 constant in ELWWD.H - Frank).
+                                        wall[k][l + m - 2] = doorchars[doortype];   // keep door consistent for now
+                                        // wall[k][l + m - 2] = 276;    // RH: BUG: This won't work, CHAR is 0..255! This will only copy lower bits and be 20.  TODO: Find this and figure out what wall[][] should really be
                             }
                         }
                     }
