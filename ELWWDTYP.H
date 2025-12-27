@@ -397,7 +397,7 @@ typedef struct {
 
 typedef struct {                 // player data file - ELWWDPLY.DAT
     CHAR    name[30];            // 0000-0029   **KEY**
-    CHAR    score[10];           // 0030-0039
+    CHAR    score[10];           // 0030-0039   **KEY2**
     PLYRINF plyr;                // 0040-0539 -  500 bytes - same size but different offsets
     OBJINF  pstuff[MAXPOBJC];    // 0540-1739 - 1200 bytes - same size but different offsets
     CHAR    spare[2000 - 1740];  // 1740-1999 - 2000 Bytes Total
