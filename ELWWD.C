@@ -1690,6 +1690,10 @@ VOID wdcycle(VOID)
                         btuinj(usrnum, CYCLE);
                         break;
                     case 3: // View the players listing....
+                        // RH: TODO: This doesn't actually work. I fixed the crash by making TEMP_PLAYER.score a key, but 
+                        // this still screws up unless there's 0 or 1 player in the player data file. Otherwise, it just 
+                        // endlessly repeats the same player. I am not sure why they're cycling on this. Just loop through
+                        // the file with dfaAcqHI(&tplayer,1) and then dfaAcqPR() until it returns FALSE... ? No?
                         dfaSetBlk(dbplayer);
                         if (!dfaAcqLE(&tplayer, "2000000000", 1)) {
                             prfmsg(NEWGAME);
@@ -2477,13 +2481,15 @@ VOID wdcycle(VOID)
                     outprf(usrnum);
                     zvda->scan = 0;
                 }
-                dfaAcqEQ(&tplayer, zvda->score, 1);
+                //dfaAcqEQ(&tplayer, zvda->score, 1);
+                dfaAcqHI(&tplayer, 1);
                 prfmsg(PLYRLST1, tplayer.name, tplayer.plyr.level, classbase[tplayer.plyr.class].name, tplayer.plyr.age, l2as(tplayer.plyr.exp));
                 outprf(usrnum);
                 strcpy(zvda->score, tplayer.score);
                 zvda->scan++;
                 if (zvda->scan < zvda->scanmax) {
-                    if (!dfaAcqLT(&tplayer, zvda->score, 1)) {
+                    //if (!dfaAcqLT(&tplayer, zvda->score, 1)) {
+                    if (!dfaAcqPR(&tplayer)) {
                         prfmsg(PLYREND);
                         outprf(usrnum);
                         usrptr->substt = 212;
