@@ -93,7 +93,6 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <StructMemberAlignment>8Bytes</StructMemberAlignment>
       <AdditionalOptions>/J %(AdditionalOptions)</AdditionalOptions>
-
       <!-- Suppress C4115: SDK header (locknkey.h) triggers "named type definition in parentheses"; warning is noise. -->
       <DisableSpecificWarnings>4115;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
@@ -118,7 +117,6 @@
       <AdditionalIncludeDirectories>$(SolutionDir)inc;$(SolutionDir)inc\msg\wg32;$(SolutionDir)src\api\gcommlib;$(SolutionDir)src\api\gcommlib\wnt</AdditionalIncludeDirectories>
       <StructMemberAlignment>8Bytes</StructMemberAlignment>
       <AdditionalOptions>/J %(AdditionalOptions)</AdditionalOptions>
-
       <!-- Suppress C4115: SDK header (locknkey.h) triggers "named type definition in parentheses"; warning is noise. -->
       <DisableSpecificWarnings>4115;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
@@ -163,6 +161,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="devnotes\COLOR.DOC" />
+    <None Include="devnotes\COMBAT.ASC" />
+    <None Include="devnotes\ELWWDOES.DOC" />
+    <None Include="devnotes\README.md" />
+    <None Include="devnotes\WLINK.DOC" />
+    <None Include="devnotes\WTODO.DOC" />
+    <None Include="Dist\ELWWD.DOC" />
+    <None Include="Dist\ELWWD.MDF" />
+    <None Include="Dist\ELWWD.MSG" />
+    <None Include="Dist\ELWWD.USR" />
+    <None Include="Dist\ELWWDPLY.DOC" />
+    <None Include="Dist\README.md" />
     <None Include="ELWWD_EXP.DEF" />
     <None Include="ELWWD_LIB.DEF" />
   </ItemGroup>
@@ -188,6 +198,13 @@
     <ClCompile Include="ELWWDRIP.C" />
     <ClCompile Include="ELWWDROU.C" />
     <ClCompile Include="ELWWDSHP.C" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="devnotes\BUGS.TXT" />
+    <Text Include="devnotes\DEBUG.TXT" />
+    <Text Include="Dist\BETA.TXT" />
+    <Text Include="Dist\CONTRIBUTING.txt" />
+    <Text Include="Dist\LICENSE.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

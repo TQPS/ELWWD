@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Dist">
+      <UniqueIdentifier>{ff4eae0f-8c45-43be-b1eb-38510686b001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Devnotes">
+      <UniqueIdentifier>{0975432d-e280-4967-a67d-d8c19203727b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ELWWD_EXP.DEF">
@@ -20,6 +26,42 @@
     </None>
     <None Include="ELWWD_LIB.DEF">
       <Filter>Source Files</Filter>
+    </None>
+    <None Include="Dist\ELWWD.DOC">
+      <Filter>Dist</Filter>
+    </None>
+    <None Include="Dist\ELWWD.MDF">
+      <Filter>Dist</Filter>
+    </None>
+    <None Include="Dist\ELWWD.MSG">
+      <Filter>Dist</Filter>
+    </None>
+    <None Include="Dist\ELWWD.USR">
+      <Filter>Dist</Filter>
+    </None>
+    <None Include="Dist\ELWWDPLY.DOC">
+      <Filter>Dist</Filter>
+    </None>
+    <None Include="Dist\README.md">
+      <Filter>Dist</Filter>
+    </None>
+    <None Include="devnotes\COLOR.DOC">
+      <Filter>Devnotes</Filter>
+    </None>
+    <None Include="devnotes\COMBAT.ASC">
+      <Filter>Devnotes</Filter>
+    </None>
+    <None Include="devnotes\ELWWDOES.DOC">
+      <Filter>Devnotes</Filter>
+    </None>
+    <None Include="devnotes\README.md">
+      <Filter>Devnotes</Filter>
+    </None>
+    <None Include="devnotes\WLINK.DOC">
+      <Filter>Devnotes</Filter>
+    </None>
+    <None Include="devnotes\WTODO.DOC">
+      <Filter>Devnotes</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -82,5 +124,22 @@
     <ClCompile Include="ELWWDSHP.C">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Dist\BETA.TXT">
+      <Filter>Dist</Filter>
+    </Text>
+    <Text Include="Dist\CONTRIBUTING.txt">
+      <Filter>Dist</Filter>
+    </Text>
+    <Text Include="Dist\LICENSE.txt">
+      <Filter>Dist</Filter>
+    </Text>
+    <Text Include="devnotes\BUGS.TXT">
+      <Filter>Devnotes</Filter>
+    </Text>
+    <Text Include="devnotes\DEBUG.TXT">
+      <Filter>Devnotes</Filter>
+    </Text>
   </ItemGroup>
 </Project>
