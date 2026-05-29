@@ -485,6 +485,7 @@ VOID draw3d(VOID)
         facevert[4] = { 0,4,8,12 },
         ldverts[4] = { 0,2,4,8 };
     USHORT i, j, k, l, m, n;
+    INT col;
     CHAR lfacev, rfacev, leverup, dobars, doorclosed;
     CHAR tc;
 
@@ -578,7 +579,7 @@ VOID draw3d(VOID)
                                 m = facewid[i][j] - (i * 2);
                             else
                                 m = facewid[i][j] - i;
-                            if (m < 26)
+                            if (m < 26) {
                                 for (n = l; n <= l + m - 1; n++) {
                                     if (n > 26 || k > 12) {
                                         prf("door error k=%u,n=%u,l=%u,m=%u\n", k, n, l, m);
@@ -590,12 +591,14 @@ VOID draw3d(VOID)
                                     }
                                     wall[k][n] = doorchars[doortype];
                                 }
-                            if (k == facerow[i] + (i * 2)) {
-                                if (rfacev)
-                                    if (i > 1 && doortype == 1)
-                                        // TODO: confirm intended door detail glyph (276 was invalid in wall[][] but aligns with UDOOR2 constant in ELWWD.H - Frank).
-                                        wall[k][l + m - 2] = doorchars[doortype];   // keep door consistent for now
-                                        // wall[k][l + m - 2] = 276;    // RH: BUG: This won't work, CHAR is 0..255! This will only copy lower bits and be 20.  TODO: Find this and figure out what wall[][] should really be
+                                if (k == facerow[i] + (i * 2)) {
+                                    if (rfacev)
+                                        if (i > 1 && doortype == 1) {
+                                            col = (INT)l + (INT)m - 2;
+                                            if (col >= 1 && col <= 26 && k >= 1 && k <= 12)
+                                                wall[k][col] = doorchars[doortype];
+                                        }
+                                }
                             }
                         }
                     }
