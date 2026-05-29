@@ -1575,7 +1575,7 @@ SHORT wdmain(VOID)
 VOID wdcycle(VOID)
 {
     SHORT ci;
-    CHAR kkey, ctr, impline[81];
+    CHAR kkey, ctr, impline[81], sname[21];
     OBJINF   tobj;    // temp holders for database lists.
     MONSTINF tmon;
     SPELLINF tspe;
@@ -2112,19 +2112,24 @@ VOID wdcycle(VOID)
                             for (ctr = 0; ctr < 50; ctr++) strcpy(zvda->plist[ctr], " ");
                             dfaStepLO(&tspe);
                         } else dfaAcqEQ(&tspe, zvda->curpos, 0);
-                        strcpy(zvda->plist[zvda->scan], tspe.spellname);
-                        prfmsg(EDSPEL, tspe.spellname, tspe.level, sp2[tspe.class], sp4[tspe.type], sp3[tspe.target]);
+                        memcpy(sname, tspe.spellname, 20);
+                        sname[20] = 0;
+                        strcpy(zvda->plist[zvda->scan], sname);
+                        prfmsg(EDSPEL, sname, tspe.level, sp2[tspe.class], sp4[tspe.type], sp3[tspe.target]);
                         zvda->scan++;
                         zvda->litcnt++;
                         outprf(usrnum);
                         if (zvda->scan < zvda->scanmax) {
-                            if (dfaStepNX(&tspe)) strcpy(zvda->curpos, tspe.spellname);
-                            else {
+                            if (dfaStepNX(&tspe)) {
+                                memcpy(sname, tspe.spellname, 20);
+                                sname[20] = 0;
+                                strcpy(zvda->curpos, sname);
+                            } else {
                                 prfmsg(EOL);
                                 usrptr->substt = 201;
                                 arxy(1, 2);
                                 prfmsg(EDLIST1, zvda->plist[0]);
-                                arxy(60, zvda->scanmax + 3);
+                                arxy(60, zvda->litcnt + 3);
                                 outprf(usrnum);
                                 zvda->scan = 0;
                                 zvda->litcnt--;
@@ -2135,7 +2140,7 @@ VOID wdcycle(VOID)
                             usrptr->substt = 201;
                             arxy(1, 2);
                             prfmsg(EDLIST1, zvda->plist[0]);
-                            arxy(60, zvda->scanmax + 3);
+                            arxy(60, zvda->litcnt + 3);
                             outprf(usrnum);
                             zvda->scan = 0;
                             zvda->litcnt--;

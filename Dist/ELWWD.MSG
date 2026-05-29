@@ -1156,7 +1156,7 @@ EDSPEL {[0;1m %-22.22s[32m%-5.5d[33m%-9.9s%-12.12s[32m%s
 } T 
 
 
-EDRACE0 {[0m[2J[1;32;44m Name                  [37;45m Cast % [36;41m MR  [0m
+EDRACE0 {[0m[2J[1;32;44m Name                  [37;45m Cast %%[36;41m MR  [0m
 } T 
 
 
