@@ -43,19 +43,8 @@ set this option to NO.
 SLOC {Start users with Locator : YES} B
 
 
+
 LEVEL6 {Elwynor Technologies: Worlds of Darkness}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 EYESPY {[0m[2J[22;1H[1;36mEyeSpy: [0m[[1;33mE[0m][1;36mverybody or [0m[[1;33mG[0m][1;36mame Players [37m-=> },{
@@ -1135,7 +1124,7 @@ EDLIST0 {[0m[2J[1;32;44m Name                  [37;45m Type      [36;41m Ra
 } T 
 
 
-EDLIST {[0;1m %-23.23s[32m%-11.11s[33m%-10.10d%-8.8d[32m%-18.18s[33m%s
+EDLIST {[0;1m %-22.22s[32m%-11.11s[33m%-10.10d%-8.8d[32m%-18.18s[33m%s
 } T 
 
 
@@ -1149,7 +1138,7 @@ EDMON0 {[0m[2J[1;32;44m Name                            [37;45m Lvl [0;30;4
 } T 
 
 
-EDMON {[0;1m %-33.33s[32m%-5.5d[33m%-12.12s[32m%-12.12s[33m%-7.7d[32m%d
+EDMON {[0;1m %-32.32s[32m%-5.5d[33m%-12.12s[32m%-12.12s[33m%-7.7d[32m%d
 } T 
 
 
@@ -1163,7 +1152,7 @@ EDSPEL0 {[0m[2J[1;32;44m Name                  [37;45m Lvl [36;41m Class   
 } T 
 
 
-EDSPEL {[0;1m %-23.23s[32m%-5.5d[33m%-9.9s%-12.12s[32m%s
+EDSPEL {[0;1m %-22.22s[32m%-5.5d[33m%-9.9s%-12.12s[32m%s
 } T 
 
 
@@ -1171,7 +1160,7 @@ EDRACE0 {[0m[2J[1;32;44m Name                  [37;45m Cast % [36;41m MR  
 } T 
 
 
-EDRACE {[0;1m %-23.23s[32m%-7.7d[33m%d
+EDRACE {[0;1m %-22.22s[32m%-7.7d[33m%d
 } T 
 
 
@@ -1179,7 +1168,7 @@ EDCLAS0 {[0m[2J[1;32;44m Name                  [37;45m HP/Lvl [36;41m [0;3
 } T 
 
 
-EDCLAS {[0;1m %-23.23s[32m%-8.8d[33m%d
+EDCLAS {[0;1m %-22.22s[32m%-8.8d[33m%d
 } T 
 
 

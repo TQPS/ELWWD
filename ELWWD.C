@@ -2085,6 +2085,7 @@ VOID wdcycle(VOID)
                                 usrptr->substt = 201;
                                 arxy(1, 2);
                                 prfmsg(EDLIST1, zvda->plist[0]);
+                                arxy(60, zvda->scanmax + 3);
                                 outprf(usrnum);
                                 zvda->scan = 0;
                                 zvda->litcnt--;
@@ -2095,6 +2096,7 @@ VOID wdcycle(VOID)
                             usrptr->substt = 201;
                             arxy(1, 2);
                             prfmsg(EDLIST1, zvda->plist[0]);
+                            arxy(60, zvda->scanmax + 3);
                             outprf(usrnum);
                             zvda->scan = 0;
                             zvda->litcnt--;
@@ -2122,6 +2124,7 @@ VOID wdcycle(VOID)
                                 usrptr->substt = 201;
                                 arxy(1, 2);
                                 prfmsg(EDLIST1, zvda->plist[0]);
+                                arxy(60, zvda->scanmax + 3);
                                 outprf(usrnum);
                                 zvda->scan = 0;
                                 zvda->litcnt--;
@@ -2132,6 +2135,7 @@ VOID wdcycle(VOID)
                             usrptr->substt = 201;
                             arxy(1, 2);
                             prfmsg(EDLIST1, zvda->plist[0]);
+                            arxy(60, zvda->scanmax + 3);
                             outprf(usrnum);
                             zvda->scan = 0;
                             zvda->litcnt--;
@@ -2159,6 +2163,7 @@ VOID wdcycle(VOID)
                                 usrptr->substt = 201;
                                 arxy(1, 2);
                                 prfmsg(EDLIST1, zvda->plist[0]);
+                                arxy(60, zvda->litcnt + 3);
                                 outprf(usrnum);
                                 zvda->scan = 0;
                                 zvda->litcnt--;
@@ -2169,6 +2174,7 @@ VOID wdcycle(VOID)
                             usrptr->substt = 201;
                             arxy(1, 2);
                             prfmsg(EDLIST1, zvda->plist[0]);
+                            arxy(60, zvda->litcnt + 3);
                             outprf(usrnum);
                             zvda->scan = 0;
                             zvda->litcnt--;
@@ -2196,6 +2202,7 @@ VOID wdcycle(VOID)
                                 usrptr->substt = 201;
                                 arxy(1, 2);
                                 prfmsg(EDLIST1, zvda->plist[0]);
+                                arxy(60, zvda->litcnt + 3);
                                 outprf(usrnum);
                                 zvda->scan = 0;
                                 zvda->litcnt--;
@@ -2206,6 +2213,7 @@ VOID wdcycle(VOID)
                             usrptr->substt = 201;
                             arxy(1, 2);
                             prfmsg(EDLIST1, zvda->plist[0]);
+                            arxy(60, zvda->litcnt + 3);
                             outprf(usrnum);
                             zvda->scan = 0;
                             zvda->litcnt--;
@@ -2244,6 +2252,7 @@ VOID wdcycle(VOID)
                             usrptr->substt = 201;
                             arxy(1, 2);
                             prfmsg(EDMON1, zvda->plist[0]);
+                            arxy(60, zvda->scanmax + 3);
                             outprf(usrnum);
                             zvda->scan = 0;
                             zvda->litcnt--;
@@ -2369,6 +2378,7 @@ VOID wdcycle(VOID)
                                     if (zvda->scan < 0) zvda->scan = zvda->litcnt;
                                     arxy(1, zvda->scan + 2);
                                     prfmsg(EDLIST1, zvda->plist[zvda->scan]);
+                                    arxy(60, zvda->litcnt + 4);
                                     outprf(usrnum);
                                     break;
                                 case 20:
@@ -2378,6 +2388,7 @@ VOID wdcycle(VOID)
                                     if (zvda->scan < 0) zvda->scan = zvda->litcnt;
                                     arxy(1, zvda->scan + 2);
                                     prfmsg(EDMON1, zvda->plist[zvda->scan]);
+                                    arxy(60, zvda->litcnt + 4);
                                     outprf(usrnum);
                                     break;
                             }
@@ -2391,6 +2402,7 @@ VOID wdcycle(VOID)
                                     if (zvda->scan > zvda->litcnt) zvda->scan = 0;
                                     arxy(1, zvda->scan + 2);
                                     prfmsg(EDLIST1, zvda->plist[zvda->scan]);
+                                    arxy(60, zvda->litcnt + 4);
                                     outprf(usrnum);
                                     break;
                                 case 20:
@@ -2400,6 +2412,7 @@ VOID wdcycle(VOID)
                                     if (zvda->scan > zvda->litcnt) zvda->scan = 0;
                                     arxy(1, zvda->scan + 2);
                                     prfmsg(EDMON1, zvda->plist[zvda->scan]);
+                                    arxy(60, zvda->litcnt + 4);
                                     outprf(usrnum);
                                     break;
                             }
