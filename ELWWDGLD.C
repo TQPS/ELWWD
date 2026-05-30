@@ -756,6 +756,18 @@ VOID clerproc(VOID)
                 hp = (USHORT)atoi(margv[0]);
             else
                 hp = zplyr->maxhp - zplyr->currhp;
+
+            // Keep paid healing within the old service cap and actual missing HP
+            if (zplyr->currhp >= zplyr->maxhp) {
+                hp = 0;
+            } else {
+                i = zplyr->maxhp - zplyr->currhp;
+                if (hp > 250)
+                    hp = 250;
+                if (hp > i)
+                    hp = i;
+            }
+
             if (hp > 0)
                 if ((USHORT)(hp * 2) > zplyr->cash) {
                     prfmsg(NODOUGH);
@@ -763,10 +775,7 @@ VOID clerproc(VOID)
                     break;
                 } else {
                     zplyr->cash -= hp * 2;
-                    i = zplyr->currhp + hp;
-                    if (i > 250)
-                        i = 250;
-                    zplyr->currhp = (CHAR)i;
+                    zplyr->currhp += (CHAR)hp;
                     zvda->nstat = TRUE;
                     prfmsg(FEELOK);
                 }

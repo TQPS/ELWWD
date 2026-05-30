@@ -49,10 +49,13 @@ Fixed for next alpha candidate:
 - Verified class-restricted store items cannot be used/readied when not valid for the player class.
 - Fixed Wizard/Cleric guild spell-learn slot pre-check to match casting slot layout.
 - Fixed drunkenness being processed as poison after drinking alcohol.
+- Fixed Cleric paid healing so it respects the player’s actual max HP and only charges for HP actually restored.
+
 
 Still under review:
 
 - Validate Wizard/Cleric guild spell learning in-game once guild access is reached.
+- Validate Cleric paid healing cap in-game once Cleric/Church access is reached.
 - Remaining original WTODO items to verify before changing code.
 
 
