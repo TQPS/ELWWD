@@ -45,12 +45,14 @@ Fixed for next alpha candidate:
 - Fixed FSD Spell editor name bleed from fixed-width spellname fields.
 - Restored monster EXP rewards using an initial gold/256 baseline.
 - Confirmed combat EXP now awards during combat and appears on player status.
+- Confirmed basic dungeon movement, combat, EXP awards, and status progression are stable in current testing.
+- Verified class-restricted store items cannot be used/readied when not valid for the player class.
+- Fixed Wizard/Cleric guild spell-learn slot pre-check to match casting slot layout.
+- Fixed drunkenness being processed as poison after drinking alcohol.
 
 Still under review:
 
-- Store red-listed item purchase blocking.
-- Level-up spell slot / guild list rubbish.
-- Basic dungeon/combat/play-loop validation.
+- Validate Wizard/Cleric guild spell learning in-game once guild access is reached.
 - Remaining original WTODO items to verify before changing code.
 
 

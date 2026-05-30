@@ -752,12 +752,13 @@ VOID deccond(CHAR tgtid, SHORT targn)
                     }
                 }
             }
-            if (cvda->plyr.condition[0]) {
+            // Poison strength is condition[1]; condition[0] is drunkenness.
+            if (cvda->plyr.condition[1]) {
                 cvda->plyr.condition[7]--;
                 if (cvda->plyr.condition[7] == 0) {
-                    tvar = 11 - cvda->plyr.condition[0];
+                    tvar = 11 - cvda->plyr.condition[1];
                     cvda->plyr.condition[7] = tvar;
-                    tvar = cvda->plyr.condition[0] * 2;
+                    tvar = cvda->plyr.condition[1] * 2;
                     if (tvar > cvda->plyr.currhp) {
                         cvda->dead = TRUE;
                         cvda->plyr.currhp = 0;
