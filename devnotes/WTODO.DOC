@@ -29,4 +29,28 @@ summon spell to bring ele's in combat
 add pet stores for pet npc's
 add monster terrain map
 
+
+
+
+v0.63 alpha candidate work-in-progress
+
+Goal:
+Stabilize Worlds of Darkness enough for wider alpha testing.
+
+Fixed for next alpha candidate:
+
+- Fixed ANSI door renderer bounds issue that could crash movement/redraw.
+- Fixed FSD editor list alignment and cursor placement.
+- Fixed FSD Race editor Cast % display.
+- Fixed FSD Spell editor name bleed from fixed-width spellname fields.
+- Restored monster EXP rewards using an initial gold/256 baseline.
+- Confirmed combat EXP now awards during combat and appears on player status.
+
+Still under review:
+
+- Store red-listed item purchase blocking.
+- Level-up spell slot / guild list rubbish.
+- Basic dungeon/combat/play-loop validation.
+- Remaining original WTODO items to verify before changing code.
+
 
