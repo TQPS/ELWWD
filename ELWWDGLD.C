@@ -705,8 +705,9 @@ VOID clerproc(VOID)
                     if (zvda->pstuff[i].objname[0] != 0 &&
                         zplyr->equip[i] == TRUE &&
                         zvda->pstuff[i].osp == 11) {
+                        // Pack matching inventory slots for the cost/uncurse loops
+                        zvda->mnuslt[zvda->litcnt] = (CHAR)i;
                         zvda->litcnt++;
-                        zvda->mnuslt[i] = (CHAR)i;
                     }
                 if (!zvda->litcnt) {
                     prfmsg(NCITR);
