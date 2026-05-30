@@ -277,7 +277,8 @@ VOID wizproc(VOID)
               break;
         case 1: zvda->mnukey--;
             if (zvda->mnukey < zvda->litcnt) {
-                k = (9 - zvda->mnukey) * 5;
+                // Match spell casting slot layout; level 1 starts at slot 40
+                k = (8 - zvda->mnukey) * 5;
                 for (i = 0; i < 5; i++)
                     if (zplyr->mage[k + i] == NOTFOUND)
                         break;
@@ -864,7 +865,8 @@ VOID clerproc(VOID)
               break;
         case 5: zvda->mnukey--;
             if (zvda->mnukey < zvda->litcnt) {
-                k = (9 - zvda->mnukey) * 5;
+                // Match spell casting slot layout; level 1 starts at slot 40
+                k = (8 - zvda->mnukey) * 5;
                 for (i = 0; i < 5; i++)
                     if (zplyr->cleric[k + i] == NOTFOUND)
                         break;
