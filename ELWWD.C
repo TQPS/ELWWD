@@ -1575,7 +1575,7 @@ SHORT wdmain(VOID)
 VOID wdcycle(VOID)
 {
     SHORT ci;
-    CHAR kkey, ctr, impline[81], sname[21];
+    CHAR kkey, ctr, impline[81], sname[21], oname[21];
     OBJINF   tobj;    // temp holders for database lists.
     MONSTINF tmon;
     SPELLINF tspe;
@@ -2072,15 +2072,20 @@ VOID wdcycle(VOID)
                             for (ctr = 0; ctr < 50; ctr++) strcpy(zvda->plist[ctr], " ");
                             dfaStepLO(&tobj);
                         } else dfaAcqEQ(&tobj, zvda->curpos, 0);
-                        strcpy(zvda->plist[zvda->scan], tobj.objname);
-                        prfmsg(EDLIST, tobj.objname, mu2[tobj.otype],
+                        memcpy(oname, tobj.objname, 20);
+                        oname[20] = 0;
+                        strcpy(zvda->plist[zvda->scan], oname);
+                        prfmsg(EDLIST, oname, mu2[tobj.otype],
                             tobj.orange, tobj.omd, mu5[tobj.osp], l2as(tobj.ocost));
                         zvda->scan++;
                         zvda->litcnt++;
                         outprf(usrnum);
                         if (zvda->scan < zvda->scanmax) {
-                            if (dfaStepNX(&tobj)) strcpy(zvda->curpos, tobj.objname);
-                            else {
+                            if (dfaStepNX(&tobj)) {
+                                memcpy(oname, tobj.objname, 20);
+                                oname[20] = 0;
+                                strcpy(zvda->curpos, oname);
+                            } else {
                                 prfmsg(EOL);
                                 usrptr->substt = 201;
                                 arxy(1, 2);

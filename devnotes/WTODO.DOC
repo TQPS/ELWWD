@@ -126,6 +126,8 @@ Fixed for next alpha candidate:
 - Fixed Cleric remove-curse slot tracking so equipped cursed items are correctly costed and uncursed.
 - Fixed wearable rings and amulets not appearing in the dungeon Ready and combat Equip item-selection menus.
 - Added combat cleanup safety so players leaving encounters have their in-combat flag cleared, reducing the chance of stale/duplicate player entries after combat.
+- Fixed FSD Object editor name bleed from fixed-width object name fields.
+
 
 Still under review:
 
