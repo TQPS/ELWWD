@@ -85,7 +85,10 @@ VOID chkexp(VOID)
     if (zplyr->level == 0)
         zplyr->level = 1;
     if (zplyr->level < 15) {
-        if (zplyr->exp >= exptbl[zplyr->level - 1]) {
+        // Class EXP rows are CLEXP1..CLEXP15; CLEXP1 belongs to level 1
+        // A level 1 player must compare against CLEXP2, stored at exp[1]
+        if (exptbl[zplyr->level] > 0L &&
+            zplyr->exp >= exptbl[zplyr->level]) {
             zplyr->maxhp += (CHAR)(random(zvda->pclass.hp) + 1);
             zplyr->maxmp += zvda->pclass.mp;
             zplyr->level++;
@@ -113,10 +116,14 @@ VOID chkexp(VOID)
             }
         }
         if (zvda->gstate != INFITE) {
-            if (zvda->rip) zvda->needed = exptbl[zplyr->level - 1] - zplyr->exp;
-            else {
+            // Treat blank/zero next-level thresholds as unavailable, not free
+            if (zplyr->level < 15 && exptbl[zplyr->level] > zplyr->exp)
+                zvda->needed = exptbl[zplyr->level] - zplyr->exp;
+            else
+                zvda->needed = 0L;
+            if (!zvda->rip) {
                 arxy(70, 4);
-                prf("[0;32m%s", l2as(exptbl[zplyr->level - 1] - zplyr->exp));
+                prf("[0;32m%s", l2as(zvda->needed));
                 outprf(usrnum);
             }
         }

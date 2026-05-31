@@ -128,7 +128,8 @@ Fixed for next alpha candidate:
 - Added combat cleanup safety so players leaving encounters have their in-combat flag cleared, reducing the chance of stale/duplicate player entries after combat.
 - Fixed FSD Object editor name bleed from fixed-width object name fields.
 - Fixed FSD Race and Class editor prompt colour bleed by adding missing ANSI resets.
-
+- Fixed new character level handling so players begin and remain at level 1.
+- Corrected EXP threshold indexing so level-ups use the next class level requirement.
 
 Still under review:
 
