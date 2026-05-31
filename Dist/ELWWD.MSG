@@ -1194,7 +1194,7 @@ DISCLA {[0m[2J[1;36mClass Name  : [35m[[33m%-20.20s[35m]      [37mClass #
                          [37m([31mClasses max at 100 spells[37m)    [33m([35mMAX = 2000000000[33m)
              [37m([31mYou can't have more than 50 Mage, and 50 Priest each[37m)
 
-[[33mX[0m] [1;36mAborts, [0m[[1;33mS[0m][1;36melects [0m[[1;33mN[0m][1;36mext, [0m[[1;33mP[0m][1;36mrevious, [0m[[1;33mRecord #[0m] [1;36m: },{
+[0m[[1;33mX[0m] [1;36mAborts, [0m[[1;33mS[0m][1;36melects [0m[[1;33mN[0m][1;36mext, [0m[[1;33mP[0m][1;36mrevious, [0m[[1;33mRecord #[0m] [1;36m: },{
 !|1K|*|1b010102020002000000WODCLR|Y00000100|1I003R00010CLASS2.ICN|1I000000010CLASS1.ICN|w0000000000
 !|1B00000206JK030E080F080000080F07000000
 !|1U3M0H8X0S0000<>%s<>
@@ -1276,7 +1276,7 @@ Attributes: [37m+/- [32m=  Bonus for this class.
           LCK [[31m%3.3s[32m] [[31m%3.3s[32m]
           HP  [[31m%3.3s[32m]
 
-[[1;33mX[0m] [1;36mAborts, [0m[[1;33mS[0m][1;36melects [0m[[1;33mN[0m][1;36mext, [0m[[1;33mP[0m][1;36mrevious, [0m[[1;33mRecord #[0m] [1;36m: },{
+[0m[[1;33mX[0m] [1;36mAborts, [0m[[1;33mS[0m][1;36melects [0m[[1;33mN[0m][1;36mext, [0m[[1;33mP[0m][1;36mrevious, [0m[[1;33mRecord #[0m] [1;36m: },{
 !|1K|*|1b010102020002000000WODCLR|w0010271610|1I004600010RACE2.ICN|1I000000010RACE1.ICN|w0Z0W2J1211
 !|Y00000100|1B00000206JK030E080F080000080F07000000
 !|1U3Q0J910V0000<>%s<>

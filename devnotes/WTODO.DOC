@@ -79,7 +79,7 @@ VERIFIED - Leave/re-enter AC initialization could not be reproduced.
            before restoring dungeon play, and the status panel displays the
            recalculated live AC value.
 VERIFIED - Checked for Dragon Amulet references: no hard-coded source reference found. 
-           No Dragon Amulet exists in the current FSE object database. 
+           No Dragon Amulet exists in the current FSD object database. 
            Original note may refer to older/missing object DAT test data.
 
 REQUIRES VALIDATION - Adjusted Wizard/Cleric guild spell-learn slot pre-check.
@@ -127,6 +127,7 @@ Fixed for next alpha candidate:
 - Fixed wearable rings and amulets not appearing in the dungeon Ready and combat Equip item-selection menus.
 - Added combat cleanup safety so players leaving encounters have their in-combat flag cleared, reducing the chance of stale/duplicate player entries after combat.
 - Fixed FSD Object editor name bleed from fixed-width object name fields.
+- Fixed FSD Race and Class editor prompt colour bleed by adding missing ANSI resets.
 
 
 Still under review:
