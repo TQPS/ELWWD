@@ -1248,6 +1248,8 @@ VOID encleave(VOID)
             xlvda = (VDABLK*)vdaoff(zcbr->plyrs[i]);
             if (xlvda->dead)
                 lparty(zcbr->plyrs[i]);
+            // Clear combat flag so later cleanup does not retain stale players.
+            xlvda->infight = FALSE;
             xlvda->mstate = 3;
         }
         zcbr->entype = ' ';
@@ -1257,6 +1259,8 @@ VOID encleave(VOID)
         zplyr->encloss++;
         encnews(xstr);
         rpfenc();
+        // Clear combat flag so later cleanup does not retain stale players.
+        zvda->infight = FALSE;
         if (zcbr->pcnt == 0)
             zcbr->entype = ' ';
         restplay();

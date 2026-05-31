@@ -30,6 +30,79 @@ add pet stores for pet npc's
 add monster terrain map
 
 
+Adjustments:
+
+DONE - Dungeon movement/render crashes and lockups fixed.
+       The ANSI door renderer could write outside the 3D wall buffer while
+       drawing certain door views, causing carrier drops, crashes, or
+       movement/redraw lockups during dungeon navigation. Door detail writes
+       are now kept inside the guarded render path and bounds checked before
+       writing to wall[][].
+DONE - Combat awarded 0 EXP because monster EXP values were blank.
+       Implemented initial monster EXP rewards using Gold / 256 baseline.
+DONE - Cleric paid healing no longer allows overhealing past actual max HP.
+       The old 250 HP service cap remains, but healing now also respects
+       the player's missing HP and only charges for HP actually restored.
+
+        HP 32/37, enter 999  -> heals 5, charges 10 pp, ends 37/37
+        HP 10/37, enter 999  -> heals 27, charges 54 pp, ends 37/37
+        HP 100/400, enter 999 -> heals 250, charges 500 pp, ends 350/400
+
+VERIFIED: Old DONE list mostly still true.
+            - "give items/gold" appears to be gold/PP only; no item-give function found.
+            - "Write on wall" is currently B/ScriBble, not W.
+VERIFIED - Store red-list equip restriction appears working.
+           Inventory colours indicate item type, not class usability.
+           Example: Cloak of Dathedi is green in shop because usable,
+                    red in inventory because it is ARMOUR.
+VERIFIED - Drinking water does not make the player drunk.
+           Repeated water purchases left the player sober/healthy.
+           Alcohol correctly sets drunk status, with no observed HP drain
+           or combat side effects during current testing.
+           My testing:
+           Water x10+:
+            - remained sober
+            - State stayed Healthy
+            - HP did not move
+
+            Ice Ale:
+            - correctly changed status to drunk
+            - drunk status persisted through movement/screens/combat
+            - HP did not drop
+            - no combat-side drunk/poison weirdness observed 
+VERIFIED - Object healing does not appear to exceed player max HP.
+           Item/special healing checks current HP before use and the shared
+           player heal path caps HP at maxhp.
+           Separate Cleric paid-healing over-cap was fixed independently.
+VERIFIED - Leave/re-enter AC initialization could not be reproduced.
+           Current code loads player equipment, recalculates AC with acplyr()
+           before restoring dungeon play, and the status panel displays the
+           recalculated live AC value.
+VERIFIED - Checked for Dragon Amulet references: no hard-coded source reference found. 
+           No Dragon Amulet exists in the current FSE object database. 
+           Original note may refer to older/missing object DAT test data.
+
+REQUIRES VALIDATION - Adjusted Wizard/Cleric guild spell-learn slot pre-check.
+                      The learn menu was checking (9 - selection) * 5,
+                      which can read past level-1 spell slots. Changed to
+                      match casting menu slot mapping: (8 - selection) * 5.
+REQUIRES VALIDATION - Adjusted Cleric paid-healing cap.
+                      Paid healing accepted the requested heal amount,
+                      charged for that amount, then only capped final HP
+                      at the old 250 service limit. Healing now also
+                      respects the player's actual missing HP and only
+                      charges for HP actually restored.
+REQUIRES VALIDATION - Adjusted Cleric remove-curse slot tracking.
+                      Remove curse was finding equipped cursed items, but
+                      stored matching inventory slots using the inventory
+                      index instead of the packed menu/list index. Changed
+                      the list to pack matching slots so cost calculation
+                      and uncurse processing target the intended items.
+REQUIRES VALIDATION - Duplicate players after combat were not reproduced in current testing.
+                      Added a conservative combat cleanup safety check so players
+                      leaving encounters have their in-combat flag cleared.
+                      Monitor during v0.63 alpha testing for any remaining duplicate
+                      player display or stale combat-entry behaviour.
 
 
 v0.63 alpha candidate work-in-progress
@@ -51,6 +124,8 @@ Fixed for next alpha candidate:
 - Fixed drunkenness being processed as poison after drinking alcohol.
 - Fixed Cleric paid healing so it respects the player’s actual max HP and only charges for HP actually restored.
 - Fixed Cleric remove-curse slot tracking so equipped cursed items are correctly costed and uncursed.
+- Fixed wearable rings and amulets not appearing in the dungeon Ready and combat Equip item-selection menus.
+- Added combat cleanup safety so players leaving encounters have their in-combat flag cleared, reducing the chance of stale/duplicate player entries after combat.
 
 Still under review:
 
@@ -58,5 +133,6 @@ Still under review:
 - Validate Cleric paid healing cap in-game once Cleric/Church access is reached.
 - Validate Cleric/Church poison curing in-game once Cleric/Church access is reached.
 - Validate Cleric/Church remove-curse flow in-game once Cleric/Church access is reached.
-- Remaining original WTODO items to verify before changing code.
+- Validate wearable rings and amulets can be readied/equipped in-game once suitable test items are available.
+- Monitor duplicate-player reports after combat during v0.63 alpha testing; not reproduced in current testing, but a conservative combat cleanup safety check was added.
 
