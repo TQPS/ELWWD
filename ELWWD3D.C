@@ -448,7 +448,10 @@ VOID moveme(CHAR kkey)
                 zvda->mnuslt[mi] = 0;
                 if (zvda->pstuff[mi].objname[0] != 0 &&
                     (zvda->pstuff[mi].otype == 0 ||
-                        zvda->pstuff[mi].otype == 1)) {
+                        zvda->pstuff[mi].otype == 1 ||
+                        ((zvda->pstuff[mi].otype == 2 ||
+                            zvda->pstuff[mi].otype == 5) &&
+                            zvda->pstuff[mi].owhat == 0))) {
                     mj++;
                     zvda->mnuslt[mi] = 1;
                 }

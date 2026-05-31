@@ -1873,7 +1873,10 @@ VOID encounter(VOID)
                                   zvda->mnuslt[i] = 0;
                                   if (zvda->pstuff[i].objname[0] != 0 &&
                                       (zvda->pstuff[i].otype == 0 ||
-                                          zvda->pstuff[i].otype == 1)) {
+                                          zvda->pstuff[i].otype == 1 ||
+                                          ((zvda->pstuff[i].otype == 2 ||
+                                              zvda->pstuff[i].otype == 5) &&
+                                              zvda->pstuff[i].owhat == 0))) {
                                       j++;
                                       zvda->mnuslt[i] = 1;
                                   }
